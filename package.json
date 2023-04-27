@@ -1,0 +1,111 @@
+{
+  "name": "@u3u/eslint-config",
+  "version": "0.0.0",
+  "description": "My ESLint config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "repository": {
+    "url": "https://github.com/u3u/eslint-config.git"
+  },
+  "license": "MIT",
+  "author": "u3u <qwq@qwq.cat> (https://github.com/u3u)",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    },
+    "./base": {
+      "types": "./dist/base.d.ts",
+      "require": "./dist/base.js",
+      "import": "./dist/base.mjs"
+    },
+    "./import": {
+      "types": "./dist/import.d.ts",
+      "require": "./dist/import.js",
+      "import": "./dist/import.mjs"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "require": "./dist/react.js",
+      "import": "./dist/react.mjs"
+    },
+    "./ts": {
+      "types": "./dist/ts.d.ts",
+      "require": "./dist/ts.js",
+      "import": "./dist/ts.mjs"
+    }
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/*",
+        "./dist/index.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup && fix-tsup-cjs",
+    "format": "prettier --write .",
+    "preinstall": "npx only-allow pnpm",
+    "lint": "eslint --fix .",
+    "prepare": "pnpm build"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged --concurrent false"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix"
+    ],
+    "*": [
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-ember-suave": "^2.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "eslint-plugin-prefer-arrow-functions": "^3.1.4",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-sort-exports": "^0.8.0",
+    "eslint-plugin-sort-keys": "^2.3.5",
+    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "local-pkg": "^0.4.3"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.0",
+    "@types/eslint": "^8.37.0",
+    "@types/node": "^18.16.3",
+    "@u3u/eslint-config": "link:",
+    "@u3u/prettier-config": "^1.0.3",
+    "eslint": "^8.39.0",
+    "fix-tsup-cjs": "^1.1.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "simple-git-hooks": "^2.8.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "eslint": "^8.39.0"
+  },
+  "packageManager": "pnpm@8.4.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
