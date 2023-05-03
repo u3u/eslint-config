@@ -48,7 +48,7 @@ Then you can run `pnpm lint` to fix all errors.
 By default, it reads the `tsconfig.json` file in the project root directory.  
 You can use the `ESLINT_TSCONFIG` environment variable to specify other configuration files.
 
-In your `.eslintrc.js`
+In your `.eslintrc.cjs`
 
 ```js
 // @ts-check
