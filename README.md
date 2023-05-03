@@ -25,7 +25,7 @@ pnpm add eslint @u3u/eslint-config -D
 
 In your `.eslintrc`
 
-```js
+```json
 {
   "extends": "@u3u"
 }
