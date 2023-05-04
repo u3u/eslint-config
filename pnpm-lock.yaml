@@ -70,14 +70,14 @@ devDependencies:
     specifier: 'link:'
     version: 'link:'
   '@u3u/prettier-config':
-    specifier: ^1.0.3
-    version: 1.0.3(prettier@2.8.8)
+    specifier: ^1.0.5
+    version: 1.0.5(prettier@2.8.8)
   eslint:
     specifier: ^8.39.0
     version: 8.39.0
   fix-tsup-cjs:
-    specifier: ^1.1.0
-    version: 1.1.0
+    specifier: ^1.1.1
+    version: 1.1.1
   lint-staged:
     specifier: ^13.2.2
     version: 13.2.2
@@ -886,8 +886,8 @@ packages:
       eslint-visitor-keys: 3.4.0
     dev: false
 
-  /@u3u/prettier-config@1.0.3(prettier@2.8.8):
-    resolution: {integrity: sha512-xtYczIyFTepW7Zqcku6J6NqWaX4sHeSXA74fN/kEmn+HCU5fmTkk0A4kaimch3NqwJU0/p2vh1ZEKRFP/tqxdQ==}
+  /@u3u/prettier-config@1.0.5(prettier@2.8.8):
+    resolution: {integrity: sha512-xAQhvor9JEjAiWq8H1OtLGuy5DslLNnl6Jpf3Ls/iK2eMTjumfZJwTMf4yJSCp3/SppVi+E2WWSRBGtx4ZCQBw==}
     requiresBuild: true
     peerDependencies:
       prettier: ^2.8.8
@@ -1163,7 +1163,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001482
-      electron-to-chromium: 1.4.380
+      electron-to-chromium: 1.4.382
       node-releases: 2.0.10
       update-browserslist-db: 1.0.11(browserslist@4.21.5)
     dev: true
@@ -1544,8 +1544,8 @@ packages:
       sigmund: 1.0.1
     dev: true
 
-  /electron-to-chromium@1.4.380:
-    resolution: {integrity: sha512-XKGdI4pWM78eLH2cbXJHiBnWUwFSzZM7XujsB6stDiGu9AeSqziedP6amNLpJzE3i0rLTcfAwdCTs5ecP5yeSg==}
+  /electron-to-chromium@1.4.382:
+    resolution: {integrity: sha512-czMavlW52VIPgutbVL9JnZIZuFijzsG1ww/1z2Otu1r1q+9Qe2bTsH3My3sZarlvwyqHM6+mnZfEnt2Vr4dsIg==}
     dev: true
 
   /ember-rfc176-data@0.3.18:
@@ -2108,8 +2108,8 @@ packages:
       locate-path: 6.0.0
       path-exists: 4.0.0
 
-  /fix-tsup-cjs@1.1.0:
-    resolution: {integrity: sha512-mhciaaeK74GC+5QeCddSBmN220/WcTbqVsk+8NmzDB1ex/rJMsWx4wX1AjyxvQQ6t/Lo2QDFhqu3lr5qsjvPtg==}
+  /fix-tsup-cjs@1.1.1:
+    resolution: {integrity: sha512-kBtiI64blknnXkVfNym45rA81fxaHPEU2A0gWpM5fW5iZ50+k3LjoBVwkwVL/z+AkqCIBCJ653nqXAMGesFWPg==}
     hasBin: true
     requiresBuild: true
     dependencies:
@@ -3873,8 +3873,8 @@ packages:
     dependencies:
       glob: 7.2.3
 
-  /rollup@3.21.3:
-    resolution: {integrity: sha512-VnPfEG51nIv2xPLnZaekkuN06q9ZbnyDcLkaBdJa/W7UddyhOfMP2yOPziYQfeY7k++fZM8FdQIummFN5y14kA==}
+  /rollup@3.21.4:
+    resolution: {integrity: sha512-N5LxpvDolOm9ueiCp4NfB80omMDqb45ShtsQw2+OT3f11uJ197dv703NZvznYHP6RWR85wfxanXurXKG3ux2GQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -4344,7 +4344,7 @@ packages:
       postcss: 8.4.23
       postcss-load-config: 3.1.4(postcss@8.4.23)
       resolve-from: 5.0.0
-      rollup: 3.21.3
+      rollup: 3.21.4
       source-map: 0.8.0-beta.0
       sucrase: 3.32.0
       tree-kill: 1.2.2
