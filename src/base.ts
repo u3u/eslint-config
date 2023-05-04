@@ -49,6 +49,7 @@ export default defineConfig({
     'unicorn/better-regex': 'warn',
     'unicorn/catch-error-name': ['warn', { name: 'ex' }],
     'unicorn/consistent-destructuring': 'warn',
+    'unicorn/escape-case': 'warn',
     'unicorn/prefer-node-protocol': 'warn',
   },
 })
