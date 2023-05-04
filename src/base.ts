@@ -111,5 +111,6 @@ export default defineConfig({
     'unicorn/require-number-to-fixed-digits-argument': 'warn',
     'unicorn/switch-case-braces': 'warn',
     'unicorn/text-encoding-identifier-case': 'warn',
+    'unicorn/throw-new-error': 'warn',
   },
 })
