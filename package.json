@@ -36,6 +36,11 @@
       "types": "./dist/ts.d.ts",
       "require": "./dist/ts.js",
       "import": "./dist/ts.mjs"
+    },
+    "./vue": {
+      "types": "./dist/vue.d.ts",
+      "require": "./dist/vue.js",
+      "import": "./dist/vue.mjs"
     }
   },
   "main": "./dist/index.js",
@@ -86,7 +91,9 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "eslint-plugin-unicorn": "^46.0.0",
-    "local-pkg": "^0.4.3"
+    "eslint-plugin-vue": "^9.11.0",
+    "local-pkg": "^0.4.3",
+    "vue-eslint-parser": "^9.2.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.0",

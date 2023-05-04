@@ -8,4 +8,8 @@ export const env = {
   get isTs() {
     return isPackageExists('typescript')
   },
+
+  get isVue() {
+    return isPackageExists('vue')
+  },
 }

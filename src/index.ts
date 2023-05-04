@@ -7,6 +7,7 @@ export default defineConfig({
     './import',
     env.isReact && './react',
     env.isTs && './ts',
+    env.isVue && './vue',
   ]
     .filter(Boolean)
     .map((path) => require.resolve(path as string)),
