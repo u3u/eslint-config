@@ -37,6 +37,11 @@
       "require": "./dist/ts.js",
       "import": "./dist/ts.mjs"
     },
+    "./unicorn": {
+      "types": "./dist/unicorn.d.ts",
+      "require": "./dist/unicorn.js",
+      "import": "./dist/unicorn.mjs"
+    },
     "./vue": {
       "types": "./dist/vue.d.ts",
       "require": "./dist/vue.js",

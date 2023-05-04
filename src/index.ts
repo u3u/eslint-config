@@ -7,6 +7,7 @@ export default defineConfig({
     './import',
     env.isReact && './react',
     env.isTs && './ts',
+    './unicorn',
     env.isVue && './vue',
   ]
     .filter(Boolean)
