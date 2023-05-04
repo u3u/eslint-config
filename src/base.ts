@@ -107,5 +107,7 @@ export default defineConfig({
     'unicorn/prefer-switch': 'warn',
     'unicorn/prefer-ternary': 'warn',
     'unicorn/prefer-type-error': 'warn',
+    'unicorn/require-array-join-separator': 'warn',
+    'unicorn/require-number-to-fixed-digits-argument': 'warn',
   },
 })
