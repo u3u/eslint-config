@@ -2,7 +2,7 @@ import { newlineBlocks } from './rules/newline-blocks'
 import { defineConfig } from './utils'
 
 export default defineConfig({
-  extends: ['prettier'],
+  extends: ['prettier', 'plugin:markdown/recommended'],
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
@@ -86,7 +86,7 @@ export default defineConfig({
     'unicorn/prefer-math-trunc': 'warn',
     'unicorn/prefer-modern-dom-apis': 'warn',
     'unicorn/prefer-modern-math-apis': 'warn',
-    'unicorn/prefer-module': 'warn',
+    // 'unicorn/prefer-module': 'warn',
     'unicorn/prefer-native-coercion-functions': 'warn',
     'unicorn/prefer-negative-index': 'warn',
     'unicorn/prefer-node-protocol': 'warn',
