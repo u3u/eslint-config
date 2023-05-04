@@ -110,6 +110,7 @@ export default defineConfig({
     'unicorn/require-array-join-separator': 'warn',
     'unicorn/require-number-to-fixed-digits-argument': 'warn',
     'unicorn/switch-case-braces': 'warn',
+    'unicorn/template-indent': 'warn',
     'unicorn/text-encoding-identifier-case': 'warn',
     'unicorn/throw-new-error': 'warn',
   },
