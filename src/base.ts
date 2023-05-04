@@ -50,6 +50,7 @@ export default defineConfig({
     'unicorn/catch-error-name': ['warn', { name: 'ex' }],
     'unicorn/consistent-destructuring': 'warn',
     'unicorn/escape-case': 'warn',
+    'unicorn/new-for-builtins': 'warn',
     'unicorn/prefer-node-protocol': 'warn',
   },
 })
