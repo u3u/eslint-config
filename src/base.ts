@@ -46,6 +46,7 @@ export default defineConfig({
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-exports/sort-exports': ['warn', { sortExportKindFirst: 'type' }],
     'sort-keys/sort-keys-fix': 'warn',
+    'unicorn/better-regex': 'warn',
     'unicorn/prefer-node-protocol': 'warn',
   },
 })
