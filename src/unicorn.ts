@@ -5,7 +5,7 @@ export default defineConfig({
 
   rules: {
     'unicorn/better-regex': 'warn',
-    'unicorn/catch-error-name': ['warn', { name: 'ex' }],
+    'unicorn/catch-error-name': ['warn', { ignore: ['ex'] }],
     'unicorn/consistent-destructuring': 'warn',
     'unicorn/escape-case': 'warn',
     'unicorn/new-for-builtins': 'warn',
