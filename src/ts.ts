@@ -15,16 +15,19 @@ export default defineConfig({
         {
           files: ['**/*.{ts,tsx}'],
           parser: '@typescript-eslint/parser',
+
           parserOptions: {
             project: tsconfig,
             tsconfigRootDir: process.cwd(),
           },
 
           plugins: ['@typescript-eslint'],
+
           rules: {
             '@typescript-eslint/array-type': 'warn',
             '@typescript-eslint/consistent-type-definitions': 'warn',
             '@typescript-eslint/consistent-type-exports': 'warn',
+
             '@typescript-eslint/consistent-type-imports': [
               'warn',
               {
@@ -39,6 +42,7 @@ export default defineConfig({
             '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
             // '@typescript-eslint/no-unnecessary-condition': 'warn',
             '@typescript-eslint/no-unnecessary-qualifier': 'warn',
+
             '@typescript-eslint/padding-line-between-statements': [
               'warn',
               ...newlineBlocks,

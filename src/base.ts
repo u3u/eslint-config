@@ -17,18 +17,19 @@ export default defineConfig({
     'sort-destructure-keys',
     'prefer-arrow-functions',
     'only-warn',
-    'ember-suave',
+    'ext',
   ],
 
   reportUnusedDisableDirectives: true,
 
   rules: {
-    'ember-suave/lines-between-object-properties': ['warn', 'always', { exceptAfterSingleLine: true }],
     eqeqeq: 'warn',
+    'ext/lines-between-object-properties': ['error', 'always', { exceptBetweenSingleLines: true }],
     'lines-between-class-members': 'warn',
     'no-useless-rename': 'warn',
     'no-var': 'warn',
     'object-shorthand': 'warn',
+
     'padding-line-between-statements': [
       'warn',
       ...newlineBlocks,

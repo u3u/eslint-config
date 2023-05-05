@@ -3,6 +3,7 @@ export const newlineBlocks = [
   // newline-before-blocks
   {
     blankLine: 'always',
+
     next: [
       'export',
       'block-like',
@@ -21,6 +22,7 @@ export const newlineBlocks = [
   {
     blankLine: 'always',
     next: '*',
+
     prev: [
       //
       'multiline-block-like',
