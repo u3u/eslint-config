@@ -69,7 +69,9 @@ In your `.vscode/settings.json`
 {
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "eslint.enable": true,
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "markdown"]
 }
 ```
 
