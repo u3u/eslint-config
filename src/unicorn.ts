@@ -19,7 +19,7 @@ export default defineConfig({
     'unicorn/no-instanceof-array': 'warn',
     'unicorn/no-lonely-if': 'warn',
     'unicorn/no-negated-condition': 'warn',
-    'unicorn/no-nested-ternary': 'warn',
+    // 'unicorn/no-nested-ternary': 'warn', // Conflict with Prettier
     'unicorn/no-new-array': 'warn',
     'unicorn/no-new-buffer': 'warn',
     'unicorn/no-null': 'warn',
