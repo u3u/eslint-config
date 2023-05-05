@@ -24,7 +24,7 @@ export default defineConfig({
     // 'unicorn/no-nested-ternary': 'warn', // Conflict with Prettier
     'unicorn/no-new-array': 'warn',
     'unicorn/no-new-buffer': 'warn',
-    'unicorn/no-null': isVue ? 'off' : 'warn',
+    // 'unicorn/no-null': isVue ? 'off' : 'warn',
     'unicorn/no-static-only-class': 'warn',
     'unicorn/no-typeof-undefined': 'warn',
     'unicorn/no-unreadable-array-destructuring': 'warn',
