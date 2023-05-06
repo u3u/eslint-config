@@ -12,21 +12,25 @@ export default defineConfig({
 
   plugins: [
     //
-    'sort-keys',
-    'sort-exports',
-    'sort-destructure-keys',
-    'prefer-arrow-functions',
-    'only-warn',
     'ext',
+    'only-warn',
+    'prefer-arrow-functions',
+    'sort-destructure-keys',
+    'sort-exports',
+    'sort-keys',
   ],
 
   reportUnusedDisableDirectives: true,
 
   rules: {
     eqeqeq: 'warn',
-    'ext/lines-between-object-properties': ['error', 'always', { exceptBetweenSingleLines: true }],
+    'ext/lines-between-object-properties': ['warn', 'always', { exceptBetweenSingleLines: true }],
     'lines-between-class-members': 'warn',
+    'no-else-return': 'warn',
+    'no-lonely-if': 'warn',
+    'no-useless-computed-key': 'warn',
     'no-useless-rename': 'warn',
+    'no-useless-return': 'warn',
     'no-var': 'warn',
     'object-shorthand': 'warn',
 
