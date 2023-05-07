@@ -23,6 +23,7 @@ export default defineConfig({
   reportUnusedDisableDirectives: true,
 
   rules: {
+    curly: ['warn', 'multi-or-nest', 'consistent'],
     eqeqeq: 'warn',
     'ext/lines-between-object-properties': ['warn', 'always', { exceptBetweenSingleLines: true }],
     'lines-between-class-members': 'warn',
