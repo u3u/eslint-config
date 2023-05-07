@@ -5,7 +5,7 @@ export const newlineBlocks = [
     blankLine: 'always',
 
     next: [
-      'export',
+      // 'export',
       'block-like',
       'return',
       // 'for',
