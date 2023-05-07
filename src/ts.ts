@@ -48,7 +48,7 @@ export default defineConfig({
               ...newlineBlocks,
               {
                 blankLine: 'always',
-                next: ['interface', 'type'],
+                next: ['interface', 'type', 'export'],
                 prev: '*',
               },
             ],
