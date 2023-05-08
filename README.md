@@ -78,7 +78,7 @@ module.exports = {
   overrides: [
     {
       extends: ['@u3u/eslint-config/disable-type-aware'],
-      files: ['**/*.{js,jsx,cjs,mjs}'],
+      files: ['*.js', '*.jsx', '*.cjs', '*.mjs'],
     },
   ],
 }
@@ -110,9 +110,9 @@ module.exports = {
   extends: [
     '@u3u/eslint-config/base',
     '@u3u/eslint-config/import',
+    '@u3u/eslint-config/unicorn',
     '@u3u/eslint-config/react', // Enable if `react` is detected as installed.
     '@u3u/eslint-config/ts', // Enable if `typescript` is detected as installed and `tsconfig.json` exists.
-    '@u3u/eslint-config/unicorn',
     '@u3u/eslint-config/vue', // Enable if `vue` is detected as installed.
     '@u3u/eslint-config/md',
   ],
