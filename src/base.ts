@@ -1,8 +1,8 @@
-import { newlineBlocks } from './rules/newline-blocks'
+import { newlineBlocks } from './rules'
 import { defineConfig } from './utils'
 
 export default defineConfig({
-  extends: ['prettier', 'plugin:markdown/recommended'],
+  extends: ['prettier'],
 
   parserOptions: {
     ecmaFeatures: { jsx: true },
