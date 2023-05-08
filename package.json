@@ -22,15 +22,30 @@
       "require": "./dist/base.js",
       "import": "./dist/base.mjs"
     },
+    "./disable-type-aware": {
+      "types": "./dist/disable-type-aware.d.ts",
+      "require": "./dist/disable-type-aware.js",
+      "import": "./dist/disable-type-aware.mjs"
+    },
     "./import": {
       "types": "./dist/import.d.ts",
       "require": "./dist/import.js",
       "import": "./dist/import.mjs"
     },
+    "./md": {
+      "types": "./dist/md.d.ts",
+      "require": "./dist/md.js",
+      "import": "./dist/md.mjs"
+    },
     "./react": {
       "types": "./dist/react.d.ts",
       "require": "./dist/react.js",
       "import": "./dist/react.mjs"
+    },
+    "./ts-for-js": {
+      "types": "./dist/ts-for-js.d.ts",
+      "require": "./dist/ts-for-js.js",
+      "import": "./dist/ts-for-js.mjs"
     },
     "./ts": {
       "types": "./dist/ts.d.ts",

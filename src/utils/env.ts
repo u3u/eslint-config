@@ -1,6 +1,12 @@
+import fs from 'node:fs'
+import path from 'node:path'
 import { isPackageExists } from 'local-pkg'
 
 export const env = {
+  get hasTsconfig() {
+    return fs.existsSync(env.tsconfigPath)
+  },
+
   get isReact() {
     return isPackageExists('react')
   },
@@ -11,5 +17,17 @@ export const env = {
 
   get isVue() {
     return isPackageExists('vue')
+  },
+
+  get tsconfig() {
+    return process.env.ESLINT_TSCONFIG || 'tsconfig.json'
+  },
+
+  get tsconfigPath() {
+    return path.resolve(process.cwd(), env.tsconfig)
+  },
+
+  get useTsForJs() {
+    return process.env.USE_TS_FOR_JS === 'true'
   },
 }

@@ -11,6 +11,7 @@ export default defineConfig({
     isTs && './ts',
     './unicorn',
     isVue && './vue',
+    './md',
   ]
     .filter(Boolean)
     .map((path) => require.resolve(path as string)),
