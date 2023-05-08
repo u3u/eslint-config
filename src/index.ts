@@ -7,9 +7,9 @@ export default defineConfig({
     //
     './base',
     './import',
+    './unicorn',
     isReact && './react',
     isTs && './ts',
-    './unicorn',
     isVue && './vue',
     './md',
   ]
