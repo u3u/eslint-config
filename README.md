@@ -66,6 +66,8 @@ module.exports = {
 (v2.0.0+) You can also set `process.env.USE_TS_FOR_JS = 'true'` in `.eslintrc.cjs` to enable [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for `.js` files, but you need to [include](https://typescript-eslint.io/linting/troubleshooting#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file) them in `tsconfig.json`, or you can use `@u3u/eslint-config/disable-type-aware` to disable type checking rules.
 
 ```js
+// @ts-check
+
 process.env.USE_TS_FOR_JS = 'true'
 
 /** @type {import('eslint').ESLint.ConfigData} */
