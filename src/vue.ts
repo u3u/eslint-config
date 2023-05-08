@@ -1,4 +1,6 @@
-import { defineConfig } from './utils'
+import { defineConfig, env } from './utils'
+
+const { useTsForJs } = env
 
 export default defineConfig({
   extends: [
@@ -7,6 +9,7 @@ export default defineConfig({
 
   overrides: [
     {
+      extends: useTsForJs ? [require.resolve('./disable-type-aware')] : [],
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
 
