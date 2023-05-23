@@ -95,9 +95,9 @@
     ]
   },
   "dependencies": {
-    "@types/eslint": "^8.37.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.6",
-    "@typescript-eslint/parser": "^5.59.6",
+    "@types/eslint": "^8.40.0",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
+    "@typescript-eslint/parser": "^5.59.7",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -111,15 +111,15 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "eslint-plugin-unicorn": "^47.0.0",
-    "eslint-plugin-vue": "^9.13.0",
+    "eslint-plugin-vue": "^9.14.0",
     "local-pkg": "^0.4.3",
     "vue-eslint-parser": "^9.3.0"
   },
   "devDependencies": {
     "@tsconfig/node18": "^2.0.1",
-    "@types/node": "^18.16.13",
+    "@types/node": "^18.16.14",
     "@u3u/eslint-config": "link:",
-    "@u3u/prettier-config": "^1.0.5",
+    "@u3u/prettier-config": "^1.1.1",
     "eslint": "^8.41.0",
     "fix-tsup-cjs": "^1.1.1",
     "lint-staged": "^13.2.2",
