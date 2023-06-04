@@ -42,6 +42,11 @@
       "require": "./dist/react.js",
       "import": "./dist/react.mjs"
     },
+    "./regexp": {
+      "types": "./dist/regexp.d.ts",
+      "require": "./dist/regexp.js",
+      "import": "./dist/regexp.mjs"
+    },
     "./ts-for-js": {
       "types": "./dist/ts-for-js.d.ts",
       "require": "./dist/ts-for-js.js",
@@ -107,6 +112,7 @@
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-regexp": "^1.15.0",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-sort-exports": "^0.8.0",
     "eslint-plugin-sort-keys": "^2.3.5",
