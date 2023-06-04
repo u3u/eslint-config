@@ -1,3 +1,4 @@
+<script>
 import { join } from 'path'
 
 export const obj = {
@@ -22,3 +23,4 @@ const qwq = {
 let owo = 'owo'
 var { c, a, b } = obj
 'abc'.replace(/a(?<foo>b)c/, '$1')
+</script>
