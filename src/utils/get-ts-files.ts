@@ -8,5 +8,5 @@ export const getTsFiles = (glob = '') => {
     //
     path.join(glob, '*.{ts,tsx,mts,cts}'),
     useTsForJs && path.join(glob, '*.{js,jsx,cjs,mjs}'),
-  ].filter(Boolean) as string[]
+  ].filter((item): item is string => !!item)
 }

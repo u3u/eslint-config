@@ -14,6 +14,6 @@ export default defineConfig({
     isVue && './vue',
     './md',
   ]
-    .filter(Boolean)
-    .map((path) => require.resolve(path as string)),
+    .filter((item): item is string => !!item)
+    .map((item) => require.resolve(item)),
 })
