@@ -1,3 +1,3 @@
-import { type ESLint } from 'eslint'
+import { type Linter } from 'eslint'
 
-export const defineConfig = <T extends ESLint.ConfigData>(config: T) => config
+export const defineConfig = <T extends Linter.Config>(config: T) => config

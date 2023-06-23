@@ -57,7 +57,7 @@ In your `.eslintrc.cjs`
 
 process.env.ESLINT_TSCONFIG = 'tsconfig.json' // Optional
 
-/** @type {import('eslint').ESLint.ConfigData} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: ['@u3u'],
 }
@@ -70,7 +70,7 @@ module.exports = {
 
 process.env.USE_TS_FOR_JS = 'true'
 
-/** @type {import('eslint').ESLint.ConfigData} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: ['@u3u'],
 
@@ -84,7 +84,7 @@ module.exports = {
 }
 ```
 
-## VSCode Auto fix
+## VS Code Auto fix
 
 In your `.vscode/settings.json`
 
@@ -105,7 +105,7 @@ The default configuration consists of the following components, which you can fr
 ```js
 // @ts-check
 
-/** @type {import('eslint').ESLint.ConfigData} */
+/** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
     '@u3u/eslint-config/base',
