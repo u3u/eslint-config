@@ -102,8 +102,8 @@
   },
   "dependencies": {
     "@types/eslint": "^8.40.2",
-    "@typescript-eslint/eslint-plugin": "^5.59.11",
-    "@typescript-eslint/parser": "^5.59.11",
+    "@typescript-eslint/eslint-plugin": "^5.60.0",
+    "@typescript-eslint/parser": "^5.60.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.27.5",
@@ -118,7 +118,7 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^2.3.0",
     "eslint-plugin-unicorn": "^47.0.0",
-    "eslint-plugin-vue": "^9.14.1",
+    "eslint-plugin-vue": "^9.15.0",
     "local-pkg": "^0.4.3",
     "vue-eslint-parser": "^9.3.1"
   },
@@ -140,7 +140,7 @@
   "peerDependencies": {
     "eslint": "^8.39.0"
   },
-  "packageManager": "pnpm@8.6.2",
+  "packageManager": "pnpm@8.6.3",
   "publishConfig": {
     "access": "public"
   }
