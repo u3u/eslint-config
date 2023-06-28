@@ -123,7 +123,7 @@
     "vue-eslint-parser": "^9.3.1"
   },
   "devDependencies": {
-    "@tsconfig/node18": "^2.0.1",
+    "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.18",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^2.1.1",
