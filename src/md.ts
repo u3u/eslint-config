@@ -1,4 +1,4 @@
-import { defineConfig, getTsFiles, require } from './utils'
+import { defineConfig, getTsFiles, require } from './utils';
 
 export default defineConfig({
   extends: ['plugin:markdown/recommended'],
@@ -9,4 +9,4 @@ export default defineConfig({
       files: getTsFiles('**/*.md'),
     },
   ],
-})
+});

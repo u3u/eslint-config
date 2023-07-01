@@ -1,6 +1,6 @@
-import { defineConfig, env, require } from './utils'
+import { defineConfig, env, require } from './utils';
 
-const { isReact, isTs, isVue } = env
+const { isReact, isTs, isVue } = env;
 
 export default defineConfig({
   extends: [
@@ -16,4 +16,4 @@ export default defineConfig({
   ]
     .filter((item): item is string => !!item)
     .map((item) => require.resolve(item)),
-})
+});

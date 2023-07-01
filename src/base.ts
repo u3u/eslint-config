@@ -1,5 +1,5 @@
-import { newlineBlocks } from './rules'
-import { defineConfig } from './utils'
+import { newlineBlocks } from './rules';
+import { defineConfig } from './utils';
 
 export default defineConfig({
   extends: ['prettier'],
@@ -58,4 +58,4 @@ export default defineConfig({
     'sort-exports/sort-exports': ['warn', { sortExportKindFirst: 'type' }],
     'sort-keys/sort-keys-fix': 'warn',
   },
-})
+});

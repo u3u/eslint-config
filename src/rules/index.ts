@@ -1,1 +1,1 @@
-export * from './newline-blocks'
+export * from './newline-blocks';

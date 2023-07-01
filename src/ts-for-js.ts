@@ -1,7 +1,7 @@
-import { newlineBlocks } from './rules'
-import { defineConfig, env } from './utils'
+import { newlineBlocks } from './rules';
+import { defineConfig, env } from './utils';
 
-const { tsconfig } = env
+const { tsconfig } = env;
 
 export default defineConfig({
   extends: ['plugin:typescript-sort-keys/recommended'],
@@ -58,4 +58,4 @@ export default defineConfig({
     'no-return-await': 'off',
     'padding-line-between-statements': 'off',
   },
-})
+});

@@ -1,24 +1,24 @@
-import { join } from 'path'
+import { join } from 'path';
 
 export const obj = {
   a: '',
   c: {},
   b() {
-    return 'b'
+    return 'b';
   },
-}
-export const arr = []
+};
+export const arr = [];
 switch ('') {
   case '':
-    break
+    break;
   default:
-    break
+    break;
 }
-let ovo = 'ovo'
-var ouo = 'ouo'
+let ovo = 'ovo';
+var ouo = 'ouo';
 const qwq = {
   name: `qwq`,
-}
-let owo = 'owo'
-var { c, a, b } = obj
-'abc'.replace(/a(?<foo>b)c/, '$1')
+};
+let owo = 'owo';
+var { c, a, b } = obj;
+'abc'.replace(/a(?<foo>b)c/, '$1');

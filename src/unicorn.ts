@@ -1,6 +1,6 @@
-import { defineConfig, env } from './utils'
+import { defineConfig, env } from './utils';
 
-const { isVue } = env
+const { isVue } = env;
 
 export default defineConfig({
   plugins: ['unicorn'],
@@ -90,4 +90,4 @@ export default defineConfig({
     'unicorn/text-encoding-identifier-case': 'warn',
     'unicorn/throw-new-error': 'warn',
   },
-})
+});

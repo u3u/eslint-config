@@ -55,12 +55,12 @@ In your `.eslintrc.cjs`
 ```js
 // @ts-check
 
-process.env.ESLINT_TSCONFIG = 'tsconfig.json' // Optional
+process.env.ESLINT_TSCONFIG = 'tsconfig.json'; // Optional
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: ['@u3u'],
-}
+};
 ```
 
 (v2.0.0+) You can also set `process.env.USE_TS_FOR_JS = 'true'` in `.eslintrc.cjs` to enable [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for `.js` files, but you need to [include](https://typescript-eslint.io/linting/troubleshooting#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file) them in `tsconfig.json`, or you can use `@u3u/eslint-config/disable-type-aware` to disable type checking rules.
@@ -68,7 +68,7 @@ module.exports = {
 ```js
 // @ts-check
 
-process.env.USE_TS_FOR_JS = 'true'
+process.env.USE_TS_FOR_JS = 'true';
 
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
@@ -81,7 +81,7 @@ module.exports = {
       files: ['*.js', '*.jsx', '*.cjs', '*.mjs'],
     },
   ],
-}
+};
 ```
 
 ## VS Code Auto fix
@@ -123,7 +123,7 @@ module.exports = {
     'sort-exports/sort-exports': 'off',
     'sort-keys/sort-keys-fix': 'off',
   },
-}
+};
 ```
 
 ## Lint Staged

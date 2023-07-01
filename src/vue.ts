@@ -1,6 +1,6 @@
-import { defineConfig, env, require } from './utils'
+import { defineConfig, env, require } from './utils';
 
-const { useTsForJs } = env
+const { useTsForJs } = env;
 
 export default defineConfig({
   extends: [
@@ -22,4 +22,4 @@ export default defineConfig({
       },
     },
   ],
-})
+});

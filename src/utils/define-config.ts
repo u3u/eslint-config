@@ -1,3 +1,3 @@
-import { type Linter } from 'eslint'
+import { type Linter } from 'eslint';
 
-export const defineConfig = <T extends Linter.Config>(config: T) => config
+export const defineConfig = <T extends Linter.Config>(config: T) => config;

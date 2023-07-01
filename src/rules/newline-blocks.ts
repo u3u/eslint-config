@@ -1,5 +1,5 @@
-const singlelineVars = ['singleline-const', 'singleline-let', 'singleline-var'] as const
-const multilineVars = ['multiline-const', 'multiline-let', 'multiline-var'] as const
+const singlelineVars = ['singleline-const', 'singleline-let', 'singleline-var'] as const;
+const multilineVars = ['multiline-const', 'multiline-let', 'multiline-var'] as const;
 
 /** @see https://eslint.org/docs/latest/rules/padding-line-between-statements */
 export const newlineBlocks = [
@@ -24,4 +24,4 @@ export const newlineBlocks = [
   // newline-after-var
   { blankLine: 'always', next: '*', prev: singlelineVars },
   { blankLine: 'any', next: singlelineVars, prev: singlelineVars },
-] as const
+] as const;

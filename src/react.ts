@@ -1,4 +1,4 @@
-import { defineConfig } from './utils'
+import { defineConfig } from './utils';
 
 export default defineConfig({
   extends: ['plugin:react-hooks/recommended'],
@@ -30,4 +30,4 @@ export default defineConfig({
       version: 'detect',
     },
   },
-})
+});

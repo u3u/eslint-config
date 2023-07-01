@@ -1,4 +1,4 @@
-import { defineConfig } from './utils'
+import { defineConfig } from './utils';
 
 export default defineConfig({
   plugins: ['regexp'],
@@ -50,4 +50,4 @@ export default defineConfig({
     'regexp/unicode-escape': 'warn',
     'regexp/use-ignore-case': 'warn',
   },
-})
+});

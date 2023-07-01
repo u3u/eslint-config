@@ -1,4 +1,4 @@
-import { defineConfig } from './utils'
+import { defineConfig } from './utils';
 
 export default defineConfig({
   plugins: ['import'],
@@ -10,4 +10,4 @@ export default defineConfig({
     'import/no-self-import': 'warn',
     'import/no-useless-path-segments': 'warn',
   },
-})
+});
