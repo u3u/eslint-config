@@ -1,10 +1,10 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should work 1`] = `
+exports[`should match snapshots 1`] = `
 [
-  "import { join } from 'node:path'
+  "import { join } from 'node:path';
 
-export const arr = []
+export const arr = [];
 
 export const obj = {
   a: '',
@@ -12,34 +12,34 @@ export const obj = {
   b: () => 'b',
 
   c: {},
-}
+};
 
 switch ('') {
   case '': {
-    break
+    break;
   }
 
   default: {
-    break
+    break;
   }
 }
 
-const ovo = 'ovo'
-const ouo = 'ouo'
+const ovo = 'ovo';
+const ouo = 'ouo';
 
 const qwq = {
   name: 'qwq',
-}
+};
 
-const owo = 'owo'
-const { a, b, c } = obj
+const owo = 'owo';
+const { a, b, c } = obj;
 
-'abc'.replace(/a(?<foo>b)c/u, '$<foo>')
+'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
 ",
   "\`\`\`ts
-import { join } from 'node:path'
+import { join } from 'node:path';
 
-export const arr = []
+export const arr = [];
 
 export const obj = {
   a: '',
@@ -47,64 +47,64 @@ export const obj = {
   b: () => 'b',
 
   c: {},
-}
+};
 
 switch ('') {
   case '': {
-    break
+    break;
   }
 
   default: {
-    break
+    break;
   }
 }
 
-const ovo = 'ovo'
-const ouo = 'ouo'
+const ovo = 'ovo';
+const ouo = 'ouo';
 
 const qwq = {
   name: 'qwq',
-}
+};
 
-const owo = 'owo'
-const { a, b, c } = obj
+const owo = 'owo';
+const { a, b, c } = obj;
 
-'abc'.replace(/a(?<foo>b)c/u, '$<foo>')
+'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
 \`\`\`
 ",
   "<script>
-import { join } from 'node:path'
+import { join } from 'node:path';
 
-export const arr = []
+export const arr = [];
 export const obj = {
   a: '',
 
   b: () => 'b',
 
   c: {},
-}
+};
 
 switch ('') {
   case '': {
-    break
+    break;
   }
 
   default: {
-    break
+    break;
   }
 }
 
-const ovo = 'ovo'
-const ouo = 'ouo'
+const ovo = 'ovo';
+const ouo = 'ouo';
 
 const qwq = {
   name: 'qwq',
-}
+};
 
-const owo = 'owo'
-const { a, b, c } = obj
+const owo = 'owo';
+const { a, b, c } = obj;
 
-'abc'.replace(/a(?<foo>b)c/u, '$<foo>')
+'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
 </script>
 ",
 ]

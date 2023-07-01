@@ -1,7 +1,7 @@
 import { ESLint } from 'eslint';
 import { expect, it } from 'vitest';
 
-it('should work', async () => {
+it('should match snapshots', async () => {
   const eslint = new ESLint({
     fix: true,
 
