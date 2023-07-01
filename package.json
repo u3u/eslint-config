@@ -126,7 +126,7 @@
     "@tsconfig/node18": "^2.0.1",
     "@types/node": "^18.16.18",
     "@u3u/eslint-config": "link:",
-    "@u3u/prettier-config": "^2.1.1",
+    "@u3u/prettier-config": "^3.0.0",
     "eslint": "^8.43.0",
     "fix-tsup-cjs": "^1.1.1",
     "lint-staged": "^13.2.2",
