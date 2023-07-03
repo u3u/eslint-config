@@ -82,6 +82,9 @@ devDependencies:
   eslint:
     specifier: ^8.44.0
     version: 8.44.0
+  eslint-plugin-sort-class-members:
+    specifier: ^1.18.0
+    version: 1.18.0(eslint@8.44.0)
   fix-tsup-cjs:
     specifier: ^1.1.1
     version: 1.1.1
@@ -2366,6 +2369,15 @@ packages:
       regexp-ast-analysis: 0.6.0
       scslre: 0.2.0
     dev: false
+
+  /eslint-plugin-sort-class-members@1.18.0(eslint@8.44.0):
+    resolution: {integrity: sha512-y4r5OC3LJNHJZCWfVwFnnRiNrQ/LRf7Pb1wD6/CP8Y4qmUvjtmkwrLvyY755p8SFTOOXVd33HgFuF3XxVW1xbg==}
+    engines: {node: '>=4.0.0'}
+    peerDependencies:
+      eslint: '>=0.8.0'
+    dependencies:
+      eslint: 8.44.0
+    dev: true
 
   /eslint-plugin-sort-destructure-keys@1.5.0(eslint@8.44.0):
     resolution: {integrity: sha512-xGLyqHtbFXZNXQSvAiQ4ISBYokrbUywEhmaA50fKtSKgceCv5y3zjoNuZwcnajdM6q29Nxj+oXC9KcqfMsAPrg==}
