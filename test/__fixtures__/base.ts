@@ -22,3 +22,12 @@ const qwq = {
 let owo = 'owo';
 var { c, a, b } = obj;
 'abc'.replace(/a(?<foo>b)c/, '$1');
+class Foo {
+  b = 'bar';
+
+  c() {}
+
+  constructor() {}
+
+  static a() {}
+}
