@@ -17,6 +17,9 @@ export default defineConfig({
 
   rules: {
     '@typescript-eslint/array-type': 'warn',
+    '@typescript-eslint/ban-types': 'warn',
+    '@typescript-eslint/consistent-generic-constructors': 'warn',
+    '@typescript-eslint/consistent-indexed-object-style': 'warn',
     '@typescript-eslint/consistent-type-definitions': 'warn',
     '@typescript-eslint/consistent-type-exports': 'warn',
 
@@ -30,7 +33,8 @@ export default defineConfig({
 
     '@typescript-eslint/lines-between-class-members': 'warn',
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
-    // '@typescript-eslint/no-implicit-any-catch': 'warn',
+    '@typescript-eslint/no-extra-non-null-assertion': 'warn',
+    '@typescript-eslint/no-import-type-side-effects': 'warn',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
     // '@typescript-eslint/no-unnecessary-condition': 'warn',
     '@typescript-eslint/no-unnecessary-qualifier': 'warn',
@@ -47,11 +51,14 @@ export default defineConfig({
 
     '@typescript-eslint/prefer-as-const': 'warn',
     '@typescript-eslint/prefer-for-of': 'warn',
+    '@typescript-eslint/prefer-function-type': 'warn',
     '@typescript-eslint/prefer-includes': 'warn',
     // '@typescript-eslint/prefer-nullish-coalescing': 'warn',
     '@typescript-eslint/prefer-optional-chain': 'warn',
+    '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
     '@typescript-eslint/prefer-ts-expect-error': 'warn',
     '@typescript-eslint/return-await': 'warn',
+    '@typescript-eslint/sort-type-constituents': 'warn',
 
     // Rules of Conflicts
     'lines-between-class-members': 'off',
