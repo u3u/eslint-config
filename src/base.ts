@@ -55,7 +55,24 @@ export default defineConfig({
     'prefer-object-spread': 'warn',
     'prefer-template': 'warn',
     quotes: ['warn', 'single', { avoidEscape: true }],
-    'sort-class-members/sort-class-members': 'warn',
+
+    'sort-class-members/sort-class-members': [
+      'warn',
+      {
+        accessorPairPositioning: 'getThenSet',
+
+        order: [
+          '[static-properties]',
+          '[static-methods]',
+          '[properties]',
+          '[conventional-private-properties]',
+          'constructor',
+          '[methods]',
+          '[conventional-private-methods]',
+        ],
+      },
+    ],
+
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-exports/sort-exports': ['warn', { sortExportKindFirst: 'type' }],
     'sort-keys/sort-keys-fix': 'warn',
