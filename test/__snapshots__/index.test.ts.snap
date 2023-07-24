@@ -45,6 +45,19 @@ class Foo {
   c() {}
 }
 ",
+  "{
+  \\"0\\": null,
+  \\"a\\": null,
+  \\"b\\": null,
+
+  \\"exampleNestedObject\\": {
+    \\"a\\": null,
+    \\"z\\": null
+  },
+
+  \\"z\\": null
+}
+",
   "\`\`\`ts
 import { join } from 'node:path';
 

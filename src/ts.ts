@@ -15,7 +15,7 @@ export default defineConfig({
             ? [
                 {
                   extends: [require.resolve('./disable-type-aware')],
-                  files: ['.eslintrc.cjs'],
+                  files: ['.eslintrc.{js,cjs}'],
                 },
               ]
             : []),

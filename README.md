@@ -93,8 +93,19 @@ In your `.vscode/settings.json`
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+
   "eslint.enable": true,
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "markdown"]
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc"
+  ]
 }
 ```
 
@@ -112,8 +123,10 @@ module.exports = {
     '@u3u/eslint-config/import',
     '@u3u/eslint-config/unicorn',
     '@u3u/eslint-config/react', // Enable if `react` is detected as installed.
+    '@u3u/eslint-config/regexp',
     '@u3u/eslint-config/ts', // Enable if `typescript` is detected as installed and `tsconfig.json` exists.
     '@u3u/eslint-config/vue', // Enable if `vue` is detected as installed.
+    '@u3u/eslint-config/json',
     '@u3u/eslint-config/md',
   ],
 
@@ -135,6 +148,7 @@ If you want to apply lint and auto-fix before every commit, you can add the foll
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": ["eslint --fix"]
   },
+
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"
   }

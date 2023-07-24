@@ -1,2 +1,3 @@
 dist
 pnpm-lock.yaml
+test/__fixtures__/test.json

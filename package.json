@@ -57,6 +57,11 @@
       "require": "./dist/ts.js",
       "import": "./dist/ts.mjs"
     },
+    "./json": {
+      "types": "./dist/json.d.ts",
+      "require": "./dist/json.js",
+      "import": "./dist/json.mjs"
+    },
     "./unicorn": {
       "types": "./dist/unicorn.d.ts",
       "require": "./dist/unicorn.js",
@@ -107,6 +112,7 @@
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-json-es": "^1.5.7",
     "eslint-plugin-markdown": "^3.0.0",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
