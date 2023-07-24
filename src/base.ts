@@ -14,6 +14,7 @@ export default defineConfig({
     //
     'ext',
     'only-warn',
+    'perfectionist',
     'prefer-arrow-functions',
     'sort-class-members',
     'sort-destructure-keys',
@@ -26,8 +27,10 @@ export default defineConfig({
   rules: {
     curly: ['warn', 'multi-or-nest', 'consistent'],
     eqeqeq: 'warn',
+
     'ext/lines-between-object-properties': ['warn', 'always', { exceptBetweenSingleLines: true }],
     'lines-between-class-members': 'warn',
+
     'no-else-return': 'warn',
     'no-lonely-if': 'warn',
     'no-unneeded-ternary': 'warn',
@@ -47,6 +50,9 @@ export default defineConfig({
       },
     ],
 
+    'perfectionist/sort-array-includes': 'warn',
+    'perfectionist/sort-map-elements': 'warn',
+
     'prefer-arrow-callback': 'warn',
     'prefer-arrow-functions/prefer-arrow-functions': 'warn',
     'prefer-const': ['warn', { destructuring: 'all', ignoreReadBeforeAssign: true }],
@@ -54,6 +60,7 @@ export default defineConfig({
     'prefer-object-has-own': 'warn',
     'prefer-object-spread': 'warn',
     'prefer-template': 'warn',
+
     quotes: ['warn', 'single', { avoidEscape: true }],
 
     'sort-class-members/sort-class-members': [
