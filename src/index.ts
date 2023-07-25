@@ -7,12 +7,12 @@ export default defineConfig({
     //
     './base',
     './import',
-    './json',
     './regexp',
     './unicorn',
     isReact && './react',
     isTs && './ts',
     isVue && './vue',
+    './json',
     './md',
   ]
     .filter((item): item is string => !!item)
