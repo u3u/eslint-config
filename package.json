@@ -151,5 +151,12 @@
   "packageManager": "pnpm@8.6.10",
   "publishConfig": {
     "access": "public"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "eslint-plugin-typescript-sort-keys>@typescript-eslint/parser": "6"
+      }
+    }
   }
 }
