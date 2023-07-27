@@ -36,7 +36,7 @@ export default defineConfig({
     'unicorn/no-useless-length-check': 'warn',
     'unicorn/no-useless-promise-resolve-reject': 'warn',
     'unicorn/no-useless-spread': 'warn',
-    'unicorn/no-useless-undefined': 'warn',
+    'unicorn/no-useless-undefined': ['warn', { checkArguments: false }],
     'unicorn/no-zero-fractions': 'warn',
     'unicorn/number-literal-case': 'warn',
     'unicorn/numeric-separators-style': 'warn',
