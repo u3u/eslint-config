@@ -1,4 +1,4 @@
-import { newlineBlocks } from './rules';
+import { linesAroundComment, newlineBlocks } from './rules';
 import { defineConfig, env } from './utils';
 
 const { tsconfig } = env;
@@ -35,6 +35,22 @@ export default defineConfig({
 
     '@typescript-eslint/dot-notation': ['warn', { allowIndexSignaturePropertyAccess: true, allowKeywords: false }],
     '@typescript-eslint/explicit-member-accessibility': ['warn', { accessibility: 'no-public' }],
+
+    '@typescript-eslint/lines-around-comment': [
+      'warn',
+      {
+        ...linesAroundComment,
+        allowEnumEnd: true,
+        allowEnumStart: true,
+        allowInterfaceEnd: true,
+        allowInterfaceStart: true,
+        allowModuleEnd: true,
+        allowModuleStart: true,
+        allowTypeEnd: true,
+        allowTypeStart: true,
+      },
+    ],
+
     '@typescript-eslint/lines-between-class-members': 'warn',
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
     '@typescript-eslint/no-array-constructor': 'warn',
@@ -79,6 +95,7 @@ export default defineConfig({
 
     // Rules of Conflicts
     'dot-notation': 'off',
+    'lines-around-comment': 'off',
     'lines-between-class-members': 'off',
     'no-array-constructor': 'off',
     'no-return-await': 'off',

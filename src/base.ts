@@ -1,4 +1,4 @@
-import { newlineBlocks } from './rules';
+import { linesAroundComment, newlineBlocks } from './rules';
 import { defineConfig } from './utils';
 
 export default defineConfig({
@@ -30,6 +30,7 @@ export default defineConfig({
     eqeqeq: 'warn',
 
     'ext/lines-between-object-properties': ['warn', 'always', { exceptBetweenSingleLines: true }],
+    'lines-around-comment': ['warn', linesAroundComment],
     'lines-between-class-members': 'warn',
 
     'no-else-return': 'warn',
