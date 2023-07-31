@@ -51,7 +51,24 @@ export default defineConfig({
       },
     ],
 
-    'perfectionist/sort-array-includes': 'warn',
+    'perfectionist/sort-array-includes': ['warn', { 'spread-last': true }],
+
+    'perfectionist/sort-classes': [
+      'warn',
+      {
+        groups: [
+          'static-property',
+          'private-property',
+          'property',
+          'constructor',
+          'static-method',
+          'private-method',
+          'method',
+          'unknown',
+        ],
+      },
+    ],
+
     'perfectionist/sort-map-elements': 'warn',
 
     'prefer-arrow-callback': 'warn',
@@ -64,22 +81,22 @@ export default defineConfig({
 
     quotes: ['warn', 'single', { avoidEscape: true }],
 
-    'sort-class-members/sort-class-members': [
-      'warn',
-      {
-        accessorPairPositioning: 'getThenSet',
+    // 'sort-class-members/sort-class-members': [
+    //   'warn',
+    //   {
+    //     accessorPairPositioning: 'getThenSet',
 
-        order: [
-          '[static-properties]',
-          '[static-methods]',
-          '[properties]',
-          '[conventional-private-properties]',
-          'constructor',
-          '[methods]',
-          '[conventional-private-methods]',
-        ],
-      },
-    ],
+    //     order: [
+    //       '[static-properties]',
+    //       '[static-methods]',
+    //       '[properties]',
+    //       '[conventional-private-properties]',
+    //       'constructor',
+    //       '[methods]',
+    //       '[conventional-private-methods]',
+    //     ],
+    //   },
+    // ],
 
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-exports/sort-exports': ['warn', { sortExportKindFirst: 'type' }],
