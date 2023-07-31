@@ -26,6 +26,7 @@ export default defineConfig({
 
   rules: {
     curly: ['warn', 'multi-or-nest', 'consistent'],
+    'dot-notation': ['warn', { allowKeywords: false }],
     eqeqeq: 'warn',
 
     'ext/lines-between-object-properties': ['warn', 'always', { exceptBetweenSingleLines: true }],
