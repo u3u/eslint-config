@@ -4,9 +4,13 @@ exports[`should match snapshots 1`] = `
 [
   "import { join } from 'node:path';
 
-export const arr = [];
+export const arr = [
+  // start
+  1, 2, 3,
+];
 
 export const obj = {
+  /* start */
   a: '',
 
   b: () => 'b',
@@ -35,14 +39,34 @@ const owo = 'owo';
 const { a, b, c } = obj;
 
 'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
-class Foo {
-  static a() {}
 
+// NOTE
+class Foo {
   b = 'bar';
 
   constructor() {}
 
+  static a() {}
+
   c() {}
+
+  d() {}
+
+  z() {}
+}
+
+/* REVIEW */
+interface ExampleObject {
+  '0'?: any;
+  a?: any;
+  b?: any;
+  exampleNestedObject: ExampleNestedObject;
+  z: number;
+}
+
+interface ExampleNestedObject {
+  a?: any;
+  z?: any;
 }
 ",
   "{
@@ -93,11 +117,11 @@ const { a, b, c } = obj;
 
 'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
 class Foo {
-  static a() {}
-
   b = 'bar';
 
   constructor() {}
+
+  static a() {}
 
   c() {}
 }
@@ -137,11 +161,11 @@ const { a, b, c } = obj;
 
 'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
 class Foo {
-  static a() {}
-
   b = 'bar';
 
   constructor() {}
+
+  static a() {}
 
   c() {}
 }
