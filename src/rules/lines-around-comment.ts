@@ -1,6 +1,7 @@
 /** @see https://eslint.org/docs/latest/rules/lines-around-comment */
 export const linesAroundComment = {
   afterBlockComment: false,
+
   // afterHashbangComment: false,
   afterLineComment: false,
 

@@ -10,8 +10,10 @@ export default defineConfig({
     'unicorn/catch-error-name': ['warn', { ignore: ['ex', 'err'] }],
     'unicorn/consistent-destructuring': isVue ? 'off' : 'warn',
     'unicorn/custom-error-definition': 'warn',
+
     // 'unicorn/empty-brace-spaces': 'warn',
     'unicorn/escape-case': 'warn',
+
     // 'unicorn/explicit-length-check': 'warn',
     'unicorn/new-for-builtins': 'warn',
     'unicorn/no-array-for-each': 'warn',
@@ -24,12 +26,15 @@ export default defineConfig({
     'unicorn/no-instanceof-array': 'warn',
     'unicorn/no-lonely-if': 'warn',
     'unicorn/no-negated-condition': 'warn',
+
     // 'unicorn/no-nested-ternary': 'warn', // Conflict with Prettier
     'unicorn/no-new-array': 'warn',
     'unicorn/no-new-buffer': 'warn',
+
     // 'unicorn/no-null': isVue ? 'off' : 'warn',
     'unicorn/no-static-only-class': 'warn',
     'unicorn/no-typeof-undefined': 'warn',
+
     // 'unicorn/no-unnecessary-await': 'warn',
     'unicorn/no-unreadable-array-destructuring': 'warn',
     'unicorn/no-useless-fallback-in-spread': 'warn',
@@ -40,6 +45,7 @@ export default defineConfig({
     'unicorn/no-zero-fractions': 'warn',
     'unicorn/number-literal-case': 'warn',
     'unicorn/numeric-separators-style': 'warn',
+
     // 'unicorn/prefer-add-event-listener': 'warn',
     'unicorn/prefer-array-find': 'warn',
     'unicorn/prefer-array-flat': 'warn',
@@ -59,6 +65,7 @@ export default defineConfig({
     'unicorn/prefer-math-trunc': 'warn',
     'unicorn/prefer-modern-dom-apis': 'warn',
     'unicorn/prefer-modern-math-apis': 'warn',
+
     // 'unicorn/prefer-module': 'warn',
     'unicorn/prefer-native-coercion-functions': 'warn',
     'unicorn/prefer-negative-index': 'warn',
@@ -80,10 +87,12 @@ export default defineConfig({
     'unicorn/prefer-switch': 'warn',
     'unicorn/prefer-ternary': 'warn',
     'unicorn/prefer-type-error': 'warn',
+
     // 'unicorn/prevent-abbreviations': 'warn',
     'unicorn/relative-url-style': ['warn', 'always'],
     'unicorn/require-array-join-separator': 'warn',
     'unicorn/require-number-to-fixed-digits-argument': 'warn',
+
     // 'unicorn/string-content': 'warn',
     'unicorn/switch-case-braces': 'warn',
     'unicorn/template-indent': 'warn',

@@ -83,6 +83,7 @@ export default defineConfig({
     '@typescript-eslint/prefer-function-type': 'warn',
     '@typescript-eslint/prefer-includes': 'warn',
     '@typescript-eslint/prefer-namespace-keyword': 'warn',
+
     // '@typescript-eslint/prefer-nullish-coalescing': 'warn',
     '@typescript-eslint/prefer-optional-chain': 'warn',
     '@typescript-eslint/prefer-reduce-type-parameter': 'warn',

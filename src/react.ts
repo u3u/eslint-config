@@ -19,6 +19,7 @@ export default defineConfig({
     'react/jsx-sort-props': 'warn',
     'react/no-unknown-property': 'off',
     'react/prefer-stateless-function': 'warn',
+
     // 'react/jsx-handler-names': 'warn',
     // 'react/jsx-no-useless-fragment': 'warn',
     'react/self-closing-comp': ['warn', { component: true, html: true }],
