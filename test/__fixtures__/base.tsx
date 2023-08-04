@@ -12,7 +12,9 @@ export const obj = {
 };
 export const arr = [
   //start
-  1, 2, 3,
+  1,
+  // 2,
+  3,
 ];
 switch ('') {
   case '':
@@ -42,10 +44,20 @@ interface ExampleObject {
   '0'?: any;
   z: number;
   a?: any;
-  b?: any;
+  // b?: any;
   exampleNestedObject: ExampleNestedObject;
 }
 type ExampleNestedObject = {
   z?: any;
   a?: any;
 };
+
+// prettier-ignore
+const node =
+  <Foo
+    // d=""
+    z
+    // test={{}}
+    data-ignore=""
+    bar={[]}
+  />;

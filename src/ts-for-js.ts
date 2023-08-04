@@ -61,7 +61,6 @@ export default defineConfig({
     '@typescript-eslint/no-inferrable-types': 'warn',
     '@typescript-eslint/no-meaningless-void-operator': 'warn',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
-
     // '@typescript-eslint/no-unnecessary-condition': ['warn', { allowConstantLoopConditions: true }],
     '@typescript-eslint/no-unnecessary-qualifier': 'warn',
     '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
@@ -84,7 +83,6 @@ export default defineConfig({
     '@typescript-eslint/prefer-function-type': 'warn',
     '@typescript-eslint/prefer-includes': 'warn',
     '@typescript-eslint/prefer-namespace-keyword': 'warn',
-
     // '@typescript-eslint/prefer-nullish-coalescing': 'warn',
     '@typescript-eslint/prefer-optional-chain': 'warn',
     '@typescript-eslint/prefer-reduce-type-parameter': 'warn',
