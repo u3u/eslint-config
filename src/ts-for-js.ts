@@ -61,7 +61,8 @@ export default defineConfig({
     '@typescript-eslint/no-inferrable-types': 'warn',
     '@typescript-eslint/no-meaningless-void-operator': 'warn',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'warn',
-    '@typescript-eslint/no-unnecessary-condition': ['warn', { allowConstantLoopConditions: true }],
+
+    // '@typescript-eslint/no-unnecessary-condition': ['warn', { allowConstantLoopConditions: true }],
     '@typescript-eslint/no-unnecessary-qualifier': 'warn',
     '@typescript-eslint/no-unnecessary-type-arguments': 'warn',
     '@typescript-eslint/no-unnecessary-type-assertion': 'warn',
