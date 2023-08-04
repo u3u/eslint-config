@@ -102,6 +102,14 @@ export default defineConfig({
     'sort-destructure-keys/sort-destructure-keys': 'warn',
     'sort-exports/sort-exports': ['warn', { sortExportKindFirst: 'type' }],
     'sort-keys/sort-keys-fix': 'warn',
-    'spaced-comment': ['warn', 'always', { block: { balanced: true } }],
+
+    'spaced-comment': [
+      'warn',
+      'always',
+      {
+        block: { balanced: true },
+        markers: ['/'],
+      },
+    ],
   },
 });

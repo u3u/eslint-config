@@ -2,7 +2,9 @@
 
 exports[`should match snapshots 1`] = `
 [
-  "import { join } from 'node:path';
+  "/// <reference types=\\"eslint\\" />
+
+import { join } from 'node:path';
 
 export const arr = [
   // start

@@ -1,3 +1,5 @@
+/// <reference types="eslint" />
+
 import { join } from 'path';
 
 export const obj = {
