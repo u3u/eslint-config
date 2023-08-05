@@ -89,7 +89,7 @@ export default defineConfig({
     '@typescript-eslint/prefer-regexp-exec': 'warn',
     '@typescript-eslint/prefer-string-starts-ends-with': 'warn',
     '@typescript-eslint/prefer-ts-expect-error': 'warn',
-    '@typescript-eslint/promise-function-async': 'warn',
+    // '@typescript-eslint/promise-function-async': 'warn',
     '@typescript-eslint/return-await': 'warn',
     '@typescript-eslint/sort-type-constituents': 'warn',
 
