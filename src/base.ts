@@ -111,5 +111,7 @@ export default defineConfig({
         markers: ['/'],
       },
     ],
+
+    yoda: 'warn',
   },
 });
