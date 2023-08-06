@@ -51,7 +51,6 @@ type ExampleNestedObject = {
   z?: any;
   a?: any;
 };
-
 // prettier-ignore
 const node =
   <Foo

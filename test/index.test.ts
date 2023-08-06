@@ -15,11 +15,13 @@ it('should match snapshots', async () => {
   const options = await prettier.resolveConfig(process.cwd());
 
   expect(
-    results.map((item) =>
-      prettier.format(item.output!, {
-        ...options,
-        filepath: item.filePath,
-      })
-    )
+    results
+      .filter((item) => item.output)
+      .map((item) =>
+        prettier.format(item.output!, {
+          ...options,
+          filepath: item.filePath,
+        })
+      )
   ).toMatchSnapshot();
 });
