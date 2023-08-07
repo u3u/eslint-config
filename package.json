@@ -146,7 +146,7 @@
     "vue": "^3.3.4"
   },
   "peerDependencies": {
-    "eslint": ">=8.46.0"
+    "eslint": ">=8.0.0"
   },
   "packageManager": "pnpm@8.6.12",
   "publishConfig": {
