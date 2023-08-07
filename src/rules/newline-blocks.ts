@@ -1,5 +1,5 @@
 const blockLike = ['block-like', 'multiline-expression'] as const;
-const returnLike = ['return', 'throw', 'break', 'continue', 'debugger'];
+const returnLike = ['return', 'throw', 'break', 'continue', 'debugger'] as const;
 const singlelineVars = ['singleline-const', 'singleline-let', 'singleline-var'] as const;
 const multilineVars = ['multiline-const', 'multiline-let', 'multiline-var'] as const;
 
