@@ -1,5 +1,4 @@
 /// <reference types="eslint" />
-
 import { join } from 'path';
 
 export const obj = {
@@ -60,3 +59,9 @@ const node =
     data-ignore=""
     bar={[]}
   />;
+export const getUser = async () => null;
+const FC = () => <Foo />;
+const Fragment = () => <></>;
+const getCurrentUser = () => {
+  return getUser();
+};

@@ -2,7 +2,7 @@ import { linesAroundComment, newlineBlocks } from './rules';
 import { defineConfig } from './utils';
 
 export default defineConfig({
-  extends: ['prettier'],
+  extends: ['prettier', 'plugin:arrow-return-style/recommended'],
 
   ignorePatterns: [
     //

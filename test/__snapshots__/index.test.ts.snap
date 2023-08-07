@@ -3,7 +3,6 @@
 exports[`should match snapshots 1`] = `
 [
   "/// <reference types=\\"eslint\\" />
-
 import { join } from 'node:path';
 
 export const arr = [
@@ -13,13 +12,8 @@ export const arr = [
   3,
 ];
 
-export const obj = {
-  /* start */
-  a: '',
-
-  b: () => 'b',
-
-  c: {},
+export const getUser = async () => {
+  return null;
 };
 
 switch ('') {
@@ -82,6 +76,24 @@ const node =
     data-ignore=\\"\\"
     bar={[]}
   />;
+
+export const obj = {
+  /* start */
+  a: '',
+
+  b: () => 'b',
+
+  c: {},
+};
+
+const FC = () => {
+  return <Foo />;
+};
+const Fragment = () => {
+  return <></>;
+};
+
+const getCurrentUser = () => getUser();
 ",
   "import { join } from 'node:path';
 

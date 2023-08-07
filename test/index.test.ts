@@ -17,11 +17,11 @@ it('should match snapshots', async () => {
   expect(
     results
       .filter((item) => item.output)
-      .map((item) =>
-        prettier.format(item.output!, {
+      .map((item) => {
+        return prettier.format(item.output!, {
           ...options,
           filepath: item.filePath,
-        })
-      )
+        });
+      })
   ).toMatchSnapshot();
 });
