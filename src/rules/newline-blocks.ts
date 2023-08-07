@@ -1,17 +1,15 @@
+const blockLike = ['block-like', 'multiline-expression'] as const;
+const returnLike = ['return', 'throw', 'break', 'continue', 'debugger'];
 const singlelineVars = ['singleline-const', 'singleline-let', 'singleline-var'] as const;
 const multilineVars = ['multiline-const', 'multiline-let', 'multiline-var'] as const;
 
 /** @see https://eslint.org/docs/latest/rules/padding-line-between-statements */
 export const newlineBlocks = [
   // newline-before-blocks
-  { blankLine: 'always', next: ['block-like', 'return', 'throw', 'break', 'continue', 'debugger'], prev: '*' },
+  { blankLine: 'always', next: [...blockLike, ...returnLike], prev: '*' },
 
   // newline-after-blocks
-  {
-    blankLine: 'always',
-    next: '*',
-    prev: ['block-like', 'multiline-expression', ...multilineVars],
-  },
+  { blankLine: 'always', next: '*', prev: [...blockLike, ...multilineVars] },
 
   // newline-after-directive
   { blankLine: 'always', next: '*', prev: 'directive' },
