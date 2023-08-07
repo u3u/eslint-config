@@ -86,8 +86,8 @@ devDependencies:
     specifier: 'link:'
     version: 'link:'
   '@u3u/prettier-config':
-    specifier: ^3.0.0
-    version: 3.0.0(prettier@2.8.8)(tailwindcss@3.3.3)
+    specifier: ^3.0.1
+    version: 3.0.1(prettier@2.8.8)(tailwindcss@3.3.3)
   eslint:
     specifier: ^8.46.0
     version: 8.46.0
@@ -694,8 +694,8 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@prisma/prisma-fmt-wasm@4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085:
-    resolution: {integrity: sha512-zYz3rFwPB82mVlHGknAPdnSY/a308dhPOblxQLcZgZTDRtDXOE1MgxoRAys+jekwR4/bm3+rZDPs1xsFMsPZig==}
+  /@prisma/prisma-schema-wasm@4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584:
+    resolution: {integrity: sha512-JFdsnSgBPN8reDTLOI9Vh/6ccCb2aD1LbY/LWQnkcIgNo6IdpzvuM+qRVbBuA6IZP2SdqQI8Lu6RL2P8EFBQUA==}
     dev: true
 
   /@shufo/prettier-plugin-blade@1.10.1:
@@ -996,8 +996,8 @@ packages:
       eslint-visitor-keys: 3.4.2
     dev: false
 
-  /@u3u/prettier-config@3.0.0(prettier@2.8.8)(tailwindcss@3.3.3):
-    resolution: {integrity: sha512-teCS7Jnb9K/QBKBgOmZLXjUwzrJohpwFZj30iwY/C8E8KK4Z+eMlvb3tiIBRpTw2bLoV48eKt/flDLh1vLZXwg==}
+  /@u3u/prettier-config@3.0.1(prettier@2.8.8)(tailwindcss@3.3.3):
+    resolution: {integrity: sha512-Jet+5tvAL1jo9Y3J1R4TjHz0QxzWS5dwZ9v/1R9r/sxlhjhUGG5pzsS/uJ+Xa6Qf6OaGAYvISfyD+zhxbzvU/Q==}
     peerDependencies:
       prettier: ^2.8.8
     dependencies:
@@ -1013,11 +1013,11 @@ packages:
       prettier-plugin-jsdoc: 0.4.2(prettier@2.8.8)
       prettier-plugin-nginx: 1.0.3
       prettier-plugin-packagejson: 2.4.5(prettier@2.8.8)
-      prettier-plugin-prisma: 4.17.0(prettier@2.8.8)
+      prettier-plugin-prisma: 5.0.0(prettier@2.8.8)
       prettier-plugin-sh: 0.12.8(prettier@2.8.8)
       prettier-plugin-sort-json: 1.0.0(prettier@2.8.8)
       prettier-plugin-sql: 0.14.0(prettier@2.8.8)
-      prettier-plugin-tailwindcss: 0.3.0(@ianvs/prettier-plugin-sort-imports@4.1.0)(@shufo/prettier-plugin-blade@1.10.1)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
+      prettier-plugin-tailwindcss: 0.4.1(@ianvs/prettier-plugin-sort-imports@4.1.0)(@shufo/prettier-plugin-blade@1.10.1)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8)
       prettier-plugin-twin.macro: 1.0.14(prettier@2.8.8)(tailwindcss@3.3.3)
       remeda: 1.24.0
     transitivePeerDependencies:
@@ -4048,13 +4048,13 @@ packages:
       synckit: 0.8.5
     dev: true
 
-  /prettier-plugin-prisma@4.17.0(prettier@2.8.8):
-    resolution: {integrity: sha512-tfBRdnsg2ZDNTxAu1BuoRL/63Ll9Mid74ujJJUFhHbW7z/5sDIfSMUZ5WGsKlpEbjTuRtIYLmxKwmGrDyD2rSw==}
+  /prettier-plugin-prisma@5.0.0(prettier@2.8.8):
+    resolution: {integrity: sha512-jTJV04D9+yF7ziOOMs7CJe4ijgAH7DEGjt0SAWAToGNRy1H6BEhvcKA2UQH6gC6KVW5zeeOSAvsoiDDTt9oKXg==}
     engines: {node: '>=14', npm: '>=8'}
     peerDependencies:
       prettier: '>=2 || >=3'
     dependencies:
-      '@prisma/prisma-fmt-wasm': 4.17.0-16.27eb2449f178cd9fe1a4b892d732cc4795f75085
+      '@prisma/prisma-schema-wasm': 4.17.0-26.6b0aef69b7cdfc787f822ecd7cdc76d5f1991584
       prettier: 2.8.8
     dev: true
 
@@ -4092,8 +4092,8 @@ packages:
       tslib: 2.6.1
     dev: true
 
-  /prettier-plugin-tailwindcss@0.3.0(@ianvs/prettier-plugin-sort-imports@4.1.0)(@shufo/prettier-plugin-blade@1.10.1)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
-    resolution: {integrity: sha512-009/Xqdy7UmkcTBpwlq7jsViDqXAYSOMLDrHAdTMlVZOrKfM2o9Ci7EMWTMZ7SkKBFTG04UM9F9iM2+4i6boDA==}
+  /prettier-plugin-tailwindcss@0.4.1(@ianvs/prettier-plugin-sort-imports@4.1.0)(@shufo/prettier-plugin-blade@1.10.1)(prettier-plugin-jsdoc@0.4.2)(prettier@2.8.8):
+    resolution: {integrity: sha512-hwn2EiJmv8M+AW4YDkbjJ6HlZCTzLyz1QlySn9sMuKV/Px0fjwldlB7tol8GzdgqtkdPtzT3iJ4UzdnYXP25Ag==}
     engines: {node: '>=12.17.0'}
     peerDependencies:
       '@ianvs/prettier-plugin-sort-imports': '*'
@@ -4101,7 +4101,7 @@ packages:
       '@shopify/prettier-plugin-liquid': '*'
       '@shufo/prettier-plugin-blade': '*'
       '@trivago/prettier-plugin-sort-imports': '*'
-      prettier: '>=2.2.0'
+      prettier: ^2.2 || ^3.0
       prettier-plugin-astro: '*'
       prettier-plugin-css-order: '*'
       prettier-plugin-import-sort: '*'
