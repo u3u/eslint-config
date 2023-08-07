@@ -4,6 +4,19 @@ import { defineConfig } from './utils';
 export default defineConfig({
   extends: ['prettier'],
 
+  ignorePatterns: [
+    //
+    '.next',
+    '*.min.*',
+    'build',
+    'coverage',
+    'dist',
+    'out',
+    'output',
+    'public',
+    // 'temp',
+  ],
+
   parserOptions: {
     ecmaFeatures: { jsx: true },
     ecmaVersion: 'latest',
