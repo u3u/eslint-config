@@ -18,8 +18,8 @@ dependencies:
     specifier: ^9.0.0
     version: 9.0.0(eslint@8.46.0)
   eslint-plugin-arrow-return-style:
-    specifier: ^1.0.0
-    version: 1.0.0(eslint@8.46.0)(typescript@5.1.6)
+    specifier: ^1.1.0
+    version: 1.1.0(eslint@8.46.0)(typescript@5.1.6)
   eslint-plugin-ext:
     specifier: ^0.1.0
     version: 0.1.0
@@ -2042,8 +2042,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-arrow-return-style@1.0.0(eslint@8.46.0)(typescript@5.1.6):
-    resolution: {integrity: sha512-y1ZF+WXScD40RpPev0v9fz5+qbihiH7aM8hkNUuB5NG5T1pomA2FvHJ7dN8tjavb78ap3elgh3PNYTdlPxTMHA==}
+  /eslint-plugin-arrow-return-style@1.1.0(eslint@8.46.0)(typescript@5.1.6):
+    resolution: {integrity: sha512-2l2wRKuQfX41L70a/itzByPWLz9HCbfCY/lrX8ube+gNw9qhi4mdLhmpjtMumHOrsXTSYqAsdhT/HoGJDeIfqA==}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
