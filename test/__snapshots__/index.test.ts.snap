@@ -67,16 +67,17 @@ interface ExampleNestedObject {
   z?: any;
 }
 
-// prettier-ignore
-const node =
-  <Foo
-    // d=\\"\\"
-    z
-    // test={{}}
-    data-ignore=\\"\\"
-    bar={[]}
-  />;
-
+const render = () => {
+  return (
+    <Foo
+      // d=\\"\\"
+      z
+      // test={{}}
+      data-ignore=\\"\\"
+      bar={[]}
+    />
+  );
+};
 export const obj = {
   /* start */
   a: '',

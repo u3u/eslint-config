@@ -50,15 +50,15 @@ type ExampleNestedObject = {
   z?: any;
   a?: any;
 };
-// prettier-ignore
-const node =
+const render = () => (
   <Foo
     // d=""
     z
     // test={{}}
     data-ignore=""
     bar={[]}
-  />;
+  />
+);
 export const getUser = async () => null;
 const FC = () => <Foo />;
 const Fragment = () => <></>;
