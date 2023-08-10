@@ -53,8 +53,6 @@ You can use the `ESLINT_TSCONFIG` environment variable to specify other configur
 In your `.eslintrc.cjs`
 
 ```js
-// @ts-check
-
 process.env.ESLINT_TSCONFIG = 'tsconfig.json'; // Optional
 
 /** @type {import('eslint').Linter.Config} */
@@ -66,8 +64,6 @@ module.exports = {
 (v2.0.0+) You can also set `process.env.USE_TS_FOR_JS = 'true'` in `.eslintrc.cjs` to enable [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) for `.js` files, but you need to [include](https://typescript-eslint.io/linting/troubleshooting#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file) them in `tsconfig.json`, or you can use `@u3u/eslint-config/disable-type-aware` to disable type checking rules.
 
 ```js
-// @ts-check
-
 process.env.USE_TS_FOR_JS = 'true';
 
 /** @type {import('eslint').Linter.Config} */
@@ -114,8 +110,6 @@ In your `.vscode/settings.json`
 The default configuration consists of the following components, which you can freely combine or disable some rules.
 
 ```js
-// @ts-check
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [

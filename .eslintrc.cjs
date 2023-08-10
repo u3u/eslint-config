@@ -1,5 +1,3 @@
-// @ts-check
-
 process.env.USE_TS_FOR_JS = 'true';
 
 /** @type {import('eslint').Linter.Config} */
