@@ -86,13 +86,8 @@ export const obj = {
 
   c: {},
 };
-
-const FC = () => {
-  return <Foo />;
-};
-const Fragment = () => {
-  return <></>;
-};
+const FC = () => <Foo />;
+const Fragment = () => <></>;
 
 const getCurrentUser = () => getUser();
 ",
