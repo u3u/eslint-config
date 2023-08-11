@@ -97,7 +97,7 @@
     "@types/node": "^18.17.4",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^3.0.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^13.2.3",
     "prettier": "^2.8.8",
