@@ -1,3 +1,4 @@
+import '@total-typescript/ts-reset';
 import { defineConfig, env, require } from './utils';
 
 const { isReact, isTs, isVue } = env;
@@ -15,6 +16,6 @@ export default defineConfig({
     './json',
     './md',
   ]
-    .filter((item): item is string => !!item)
+    .filter(Boolean)
     .map((item) => require.resolve(item)),
 });
