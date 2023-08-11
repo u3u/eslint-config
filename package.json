@@ -13,64 +13,24 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "require": "./dist/index.js",
-      "import": "./dist/index.mjs"
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
-    "./base": {
-      "types": "./dist/base.d.ts",
-      "require": "./dist/base.js",
-      "import": "./dist/base.mjs"
-    },
-    "./disable-type-aware": {
-      "types": "./dist/disable-type-aware.d.ts",
-      "require": "./dist/disable-type-aware.js",
-      "import": "./dist/disable-type-aware.mjs"
-    },
-    "./import": {
-      "types": "./dist/import.d.ts",
-      "require": "./dist/import.js",
-      "import": "./dist/import.mjs"
-    },
-    "./md": {
-      "types": "./dist/md.d.ts",
-      "require": "./dist/md.js",
-      "import": "./dist/md.mjs"
-    },
-    "./react": {
-      "types": "./dist/react.d.ts",
-      "require": "./dist/react.js",
-      "import": "./dist/react.mjs"
-    },
-    "./regexp": {
-      "types": "./dist/regexp.d.ts",
-      "require": "./dist/regexp.js",
-      "import": "./dist/regexp.mjs"
-    },
-    "./ts-for-js": {
-      "types": "./dist/ts-for-js.d.ts",
-      "require": "./dist/ts-for-js.js",
-      "import": "./dist/ts-for-js.mjs"
-    },
-    "./ts": {
-      "types": "./dist/ts.d.ts",
-      "require": "./dist/ts.js",
-      "import": "./dist/ts.mjs"
-    },
-    "./json": {
-      "types": "./dist/json.d.ts",
-      "require": "./dist/json.js",
-      "import": "./dist/json.mjs"
-    },
-    "./unicorn": {
-      "types": "./dist/unicorn.d.ts",
-      "require": "./dist/unicorn.js",
-      "import": "./dist/unicorn.mjs"
-    },
-    "./vue": {
-      "types": "./dist/vue.d.ts",
-      "require": "./dist/vue.js",
-      "import": "./dist/vue.mjs"
+    "./*": {
+      "import": {
+        "types": "./dist/*.d.mts",
+        "default": "./dist/*.mjs"
+      },
+      "require": {
+        "types": "./dist/*.d.ts",
+        "default": "./dist/*.js"
+      }
     }
   },
   "main": "./dist/index.js",
