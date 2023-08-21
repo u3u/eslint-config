@@ -1,6 +1,6 @@
 {
   "name": "@u3u/eslint-config",
-  "version": "2.9.2",
+  "version": "2.10.0",
   "description": "My ESLint config",
   "keywords": [
     "eslint-config"
