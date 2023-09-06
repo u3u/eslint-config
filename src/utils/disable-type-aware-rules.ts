@@ -5,6 +5,6 @@ export const disableTypeAwareRules = () => {
   return Object.fromEntries(
     Object.entries(rules)
       .filter(([, rule]) => rule.meta.docs?.requiresTypeChecking)
-      .map(([name]) => [`@typescript-eslint/${name}`, 'off'] as const)
+      .map(([name]) => [`@typescript-eslint/${name}`, 'off'] as const),
   );
 };

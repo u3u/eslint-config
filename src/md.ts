@@ -1,4 +1,4 @@
-import { defineConfig, getTsFiles, require } from './utils';
+import { defineConfig, getTsFiles } from './utils';
 
 export default defineConfig({
   extends: ['plugin:markdown/recommended'],

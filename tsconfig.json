@@ -1,12 +1,8 @@
 {
   "compilerOptions": {
     "allowJs": true,
-    "forceConsistentCasingInFileNames": true,
-    "jsx": "preserve",
-    "module": "esnext",
     "noEmit": true,
-    "resolveJsonModule": true,
-    "strict": true
+    "resolveJsonModule": true
   },
 
   "extends": "@tsconfig/node18/tsconfig.json"

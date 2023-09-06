@@ -83,7 +83,7 @@ export default defineConfig({
       },
     ],
 
-    'perfectionist/sort-map-elements': 'warn',
+    'perfectionist/sort-maps': 'warn',
 
     'prefer-arrow-callback': 'warn',
     'prefer-arrow-functions/prefer-arrow-functions': 'warn',

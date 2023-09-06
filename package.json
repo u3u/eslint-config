@@ -67,8 +67,8 @@
   },
   "dependencies": {
     "@types/eslint": "^8.44.2",
-    "@typescript-eslint/eslint-plugin": "^6.5.0",
-    "@typescript-eslint/parser": "^6.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-arrow-return-style": "^1.2.1",
     "eslint-plugin-ext": "^0.1.0",
@@ -76,7 +76,7 @@
     "eslint-plugin-json-es": "^1.5.7",
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-plugin-perfectionist": "^1.5.1",
+    "eslint-plugin-perfectionist": "^2.0.0",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -85,7 +85,7 @@
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-sort-exports": "^0.8.0",
     "eslint-plugin-sort-keys": "^2.3.5",
-    "eslint-plugin-typescript-sort-keys": "^2.3.0",
+    "eslint-plugin-typescript-sort-keys": "^3.0.0",
     "eslint-plugin-unicorn": "^48.0.1",
     "eslint-plugin-vue": "^9.17.0",
     "local-pkg": "^0.4.3",
@@ -94,13 +94,15 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.1",
-    "@types/node": "^18.17.12",
+    "@types/node": "^18.17.14",
     "@u3u/eslint-config": "link:",
-    "@u3u/prettier-config": "^3.1.0",
+    "@u3u/prettier-config": "^4.0.0",
+    "dedent": "^1.5.1",
     "eslint": "^8.48.0",
+    "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^14.0.1",
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.3",
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
@@ -110,7 +112,7 @@
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.7.1",
+  "packageManager": "pnpm@8.7.4",
   "publishConfig": {
     "access": "public"
   },
@@ -119,6 +121,11 @@
       "allowedVersions": {
         "eslint-plugin-typescript-sort-keys>@typescript-eslint/parser": "6"
       }
+    },
+    "updateConfig": {
+      "ignoreDependencies": [
+        "@types/node"
+      ]
     }
   }
 }

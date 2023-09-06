@@ -1,4 +1,4 @@
-import { defineConfig, env, require } from './utils';
+import { defineConfig, env } from './utils';
 
 const { useTsForJs } = env;
 

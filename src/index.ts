@@ -1,5 +1,5 @@
 import '@total-typescript/ts-reset';
-import { defineConfig, env, require } from './utils';
+import { defineConfig, env } from './utils';
 
 const { isReact, isTs, isVue } = env;
 
