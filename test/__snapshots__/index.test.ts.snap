@@ -1,8 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should match snapshots 1`] = `
-[
-  "/// <reference types=\\"eslint\\" />
+exports[`should match snapshots > base.tsx 1`] = `
+"/// <reference types=\\"eslint\\" />
 import { join } from 'node:path';
 
 export const arr = [
@@ -90,8 +89,11 @@ const FC = () => <Foo />;
 const Fragment = () => <></>;
 
 const getCurrentUser = () => getUser();
-",
-  "import { join } from 'node:path';
+"
+`;
+
+exports[`should match snapshots > test.js 1`] = `
+"import { join } from 'node:path';
 
 export const arr = [];
 
@@ -133,8 +135,11 @@ class Foo {
 
   c() {}
 }
-",
-  "{
+"
+`;
+
+exports[`should match snapshots > test.json 1`] = `
+"{
   \\"0\\": null,
   \\"a\\": null,
   \\"b\\": null,
@@ -146,8 +151,11 @@ class Foo {
 
   \\"z\\": 100000
 }
-",
-  "\`\`\`ts
+"
+`;
+
+exports[`should match snapshots > test.md 1`] = `
+"\`\`\`ts
 import { join } from 'node:path';
 
 export const arr = [];
@@ -191,8 +199,11 @@ class Foo {
   c() {}
 }
 \`\`\`
-",
-  "<script>
+"
+`;
+
+exports[`should match snapshots > test.vue 1`] = `
+"<script>
 import { join } from 'node:path';
 
 export const arr = [];
@@ -236,6 +247,5 @@ class Foo {
   c() {}
 }
 </script>
-",
-]
+"
 `;
