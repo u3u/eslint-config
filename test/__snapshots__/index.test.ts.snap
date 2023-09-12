@@ -92,6 +92,54 @@ const getCurrentUser = () => getUser();
 "
 `;
 
+exports[`should match snapshots > test.astro 1`] = `
+"---
+import { join } from 'node:path';
+
+export const arr = [];
+
+export const obj = {
+  a: '',
+
+  b: () => 'b',
+
+  c: {},
+};
+
+switch ('') {
+  case '': {
+    break;
+  }
+
+  default: {
+    break;
+  }
+}
+
+const ovo = 'ovo';
+const ouo = 'ouo';
+
+const qwq = {
+  name: 'qwq',
+};
+
+const owo = 'owo';
+const { a, b, c } = obj;
+
+'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
+class Foo {
+  b = 'bar';
+
+  constructor() {}
+
+  static a() {}
+
+  c() {}
+}
+---
+"
+`;
+
 exports[`should match snapshots > test.js 1`] = `
 "import { join } from 'node:path';
 

@@ -7,6 +7,10 @@ export const env = {
     return fs.existsSync(env.tsconfigPath);
   },
 
+  get isAstro() {
+    return isPackageExists('astro');
+  },
+
   get isReact() {
     return isPackageExists('react');
   },

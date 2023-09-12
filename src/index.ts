@@ -1,7 +1,7 @@
 import '@total-typescript/ts-reset';
 import { defineConfig, env } from './utils';
 
-const { isReact, isTs, isVue } = env;
+const { isAstro, isReact, isTs, isVue } = env;
 
 export default defineConfig({
   extends: [
@@ -13,6 +13,7 @@ export default defineConfig({
     isReact && './react',
     isTs && './ts',
     isVue && './vue',
+    isAstro && './astro',
     './json',
     './md',
   ]

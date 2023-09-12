@@ -100,7 +100,8 @@ In your `.vscode/settings.json`
     "vue",
     "markdown",
     "json",
-    "jsonc"
+    "jsonc",
+    "astro"
   ]
 }
 ```
@@ -120,6 +121,7 @@ module.exports = {
     '@u3u/eslint-config/react', // Enable if `react` is detected as installed.
     '@u3u/eslint-config/ts', // Enable if `typescript` is detected as installed and `tsconfig.json` exists.
     '@u3u/eslint-config/vue', // Enable if `vue` is detected as installed.
+    '@u3u/eslint-config/astro', // Enable if `astro` is detected as installed.
     '@u3u/eslint-config/json',
     '@u3u/eslint-config/md',
   ],
