@@ -67,8 +67,8 @@
   },
   "dependencies": {
     "@types/eslint": "^8.44.2",
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-arrow-return-style": "^1.2.2",
     "eslint-plugin-ext": "^0.1.0",
@@ -76,7 +76,7 @@
     "eslint-plugin-json-es": "^1.5.7",
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-plugin-perfectionist": "^2.0.0",
+    "eslint-plugin-perfectionist": "^2.0.1",
     "eslint-plugin-prefer-arrow-functions": "^3.1.4",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -94,11 +94,11 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.1",
-    "@types/node": "^18.17.14",
+    "@types/node": "^18.17.15",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.0.0",
     "dedent": "^1.5.1",
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^14.0.1",
@@ -112,7 +112,7 @@
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.7.4",
+  "packageManager": "pnpm@8.7.5",
   "publishConfig": {
     "access": "public"
   },
