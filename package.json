@@ -67,8 +67,8 @@
   },
   "dependencies": {
     "@types/eslint": "^8.44.2",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-arrow-return-style": "^1.2.2",
     "eslint-plugin-astro": "^0.29.0",
@@ -95,10 +95,10 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.17.16",
+    "@types/node": "^18.17.18",
     "@u3u/eslint-config": "link:",
-    "@u3u/prettier-config": "^4.1.0",
-    "astro": "^3.1.0",
+    "@u3u/prettier-config": "^4.1.1",
+    "astro": "^3.1.1",
     "dedent": "^1.5.1",
     "eslint": "^8.49.0",
     "execa": "^8.0.1",
@@ -108,13 +108,13 @@
     "simple-git-hooks": "^2.9.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
-    "vitest": "^0.34.4",
+    "vitest": "^0.34.5",
     "vue": "^3.3.4"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.7.5",
+  "packageManager": "pnpm@8.7.6",
   "publishConfig": {
     "access": "public"
   },
