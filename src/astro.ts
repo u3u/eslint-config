@@ -1,6 +1,6 @@
 import { defineConfig, env } from './utils';
 
-const { useTsForJs } = env;
+const { hasTsconfig } = env;
 
 export default defineConfig({
   extends: [
@@ -9,7 +9,7 @@ export default defineConfig({
 
   overrides: [
     {
-      extends: useTsForJs ? [require.resolve('./disable-type-aware')] : [],
+      extends: hasTsconfig ? [require.resolve('./ts-for-js')] : [require.resolve('./disable-type-aware')],
       files: ['*.astro'],
       parser: 'astro-eslint-parser',
 
