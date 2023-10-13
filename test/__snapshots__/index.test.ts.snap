@@ -95,6 +95,9 @@ const getCurrentUser = () => getUser();
 exports[`should match snapshots > test.astro 1`] = `
 "---
 import { join } from 'node:path';
+import type { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {}
 
 export const arr = [];
 

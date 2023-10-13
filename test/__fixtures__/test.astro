@@ -1,5 +1,8 @@
 ---
 import { join } from 'path';
+import { HTMLAttributes } from 'astro/types';
+
+interface Props extends HTMLAttributes<'div'> {}
 
 export const obj = {
   a: '',
