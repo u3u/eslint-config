@@ -272,15 +272,11 @@ exports[`should match snapshots > test.vue 1`] = `
 "<script>
 import { join } from 'node:path';
 
-export const arr = [];
-
-export const obj = {
-  a: '',
-
-  b: () => 'b',
-
-  c: {},
+export const Comp = () => {
+  return <div />;
 };
+
+export const arr = [];
 
 switch ('') {
   case '': {
@@ -312,6 +308,14 @@ class Foo {
 
   c() {}
 }
+
+export const obj = {
+  a: '',
+
+  b: () => 'b',
+
+  c: {},
+};
 </script>
 "
 `;

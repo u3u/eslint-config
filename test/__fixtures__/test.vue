@@ -32,4 +32,6 @@ class Foo {
 
   static a() {}
 }
+
+export const Comp = () => <div></div>;
 </script>

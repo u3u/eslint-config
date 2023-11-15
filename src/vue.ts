@@ -1,6 +1,6 @@
 import { defineConfig, env } from './utils';
 
-const { hasTsconfig, useTsForJs } = env;
+const { useTsForJs } = env;
 
 export default defineConfig({
   extends: [
@@ -9,13 +9,7 @@ export default defineConfig({
 
   overrides: [
     {
-      // extends: useTsForJs ? [require.resolve('./disable-type-aware')] : [],
-      // FIXME TSConfig does not include *.vue file in test env?
-      extends:
-        hasTsconfig && !process.env.VITEST
-          ? [require.resolve('./ts-for-js')]
-          : [require.resolve('./disable-type-aware')],
-
+      extends: useTsForJs ? [require.resolve('./disable-type-aware')] : [],
       files: ['*.vue'],
       parser: 'vue-eslint-parser',
 
