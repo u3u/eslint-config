@@ -16,7 +16,7 @@ export default defineConfig({
 
     'react/jsx-boolean-value': 'warn',
     'react/jsx-key': 'warn',
-    'react/jsx-newline': 'warn',
+    'react/jsx-newline': ['warn', { allowMultilines: true, prevent: true }],
     'react/jsx-sort-props': 'warn',
     'react/no-unknown-property': 'off',
     'react/prefer-stateless-function': 'warn',

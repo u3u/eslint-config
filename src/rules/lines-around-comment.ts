@@ -15,5 +15,5 @@ export const linesAroundComment = {
 
   beforeBlockComment: true,
   beforeLineComment: true,
-  ignorePattern: 'import|=|: |,$|\\.\\.\\.',
+  ignorePattern: 'import|=|\\{|: |,$|\\.\\.\\.',
 } as const;

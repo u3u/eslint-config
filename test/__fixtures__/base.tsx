@@ -65,3 +65,18 @@ const Fragment = () => <></>;
 const getCurrentUser = () => {
   return getUser();
 };
+
+const JsxNewline = () => {
+  return (
+    <>
+      <FC />
+      <Fragment />
+      {1 === 1 && (
+        <Fragment>
+          {render()}
+          {getUser()}
+        </Fragment>
+      )}
+    </>
+  );
+};
