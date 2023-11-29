@@ -20,6 +20,7 @@ export default defineConfig({
 
       rules: {
         // https://github.com/ota-meshi/eslint-plugin-astro
+        'react/jsx-key': 'off',
       },
     },
   ],
