@@ -71,7 +71,7 @@
     "@typescript-eslint/parser": "^6.13.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-arrow-return-style": "^1.2.2",
-    "eslint-plugin-astro": "^0.29.1",
+    "eslint-plugin-astro": "^0.30.0",
     "eslint-plugin-ext": "^0.1.0",
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-json-es": "^1.5.7",
