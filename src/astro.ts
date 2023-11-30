@@ -19,8 +19,17 @@ export default defineConfig({
       },
 
       rules: {
-        // https://github.com/ota-meshi/eslint-plugin-astro
+        // https://ota-meshi.github.io/eslint-plugin-astro/rules/
+        'astro/no-deprecated-astro-fetchcontent': 'warn',
+        'astro/no-set-text-directive': 'warn',
+        'astro/prefer-class-list-directive': 'warn',
+        'astro/prefer-object-class-list': 'warn',
+        'astro/prefer-split-class-list': 'warn',
+
         'react/jsx-key': 'off',
+
+        // Wait for https://github.com/withastro/prettier-plugin-astro/issues/325
+        'react/self-closing-comp': 'off',
       },
     },
   ],
