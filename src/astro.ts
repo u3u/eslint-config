@@ -1,6 +1,6 @@
 import { defineConfig, env } from './utils';
 
-const { hasTsconfig } = env;
+const { hasTsconfig, useTsForJs } = env;
 
 export default defineConfig({
   extends: [
@@ -9,7 +9,12 @@ export default defineConfig({
 
   overrides: [
     {
-      extends: hasTsconfig ? [require.resolve('./ts-for-js')] : [require.resolve('./disable-type-aware')],
+      extends: hasTsconfig
+        ? [require.resolve('./ts-for-js')]
+        : useTsForJs
+          ? [require.resolve('./disable-type-aware')]
+          : [],
+
       files: ['*.astro'],
       parser: 'astro-eslint-parser',
 
@@ -17,6 +22,8 @@ export default defineConfig({
         extraFileExtensions: ['.astro'],
         parser: '@typescript-eslint/parser',
       },
+
+      plugins: ['astro'],
 
       rules: {
         // https://ota-meshi.github.io/eslint-plugin-astro/rules/

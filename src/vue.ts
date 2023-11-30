@@ -18,6 +18,8 @@ export default defineConfig({
         parser: '@typescript-eslint/parser',
       },
 
+      plugins: ['vue'],
+
       rules: {
         // https://eslint.vuejs.org/rules/
       },
