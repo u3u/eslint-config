@@ -93,15 +93,16 @@ In your `.vscode/settings.json`
   "eslint.enable": true,
 
   "eslint.validate": [
+    "astro",
     "javascript",
     "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "vue",
-    "markdown",
     "json",
     "jsonc",
-    "astro"
+    "markdown",
+    "mdx",
+    "typescript",
+    "typescriptreact",
+    "vue"
   ]
 }
 ```
@@ -124,6 +125,7 @@ module.exports = {
     '@u3u/eslint-config/astro', // Enable if `astro` is detected as installed.
     '@u3u/eslint-config/json',
     '@u3u/eslint-config/md',
+    '@u3u/eslint-config/mdx',
   ],
 
   rules: {

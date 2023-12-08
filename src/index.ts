@@ -16,6 +16,7 @@ export default defineConfig({
     isAstro && './astro',
     './json',
     './md',
+    './mdx',
   ]
     .filter(Boolean)
     .map((item) => require.resolve(item)),

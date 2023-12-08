@@ -1,7 +1,7 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should match snapshots > base.tsx 1`] = `
-"/// <reference types=\\"eslint\\" />
+"/// <reference types="eslint" />
 import { join } from 'node:path';
 
 export const arr = [
@@ -69,11 +69,11 @@ interface ExampleNestedObject {
 const render = () => {
   return (
     <Foo
-      // d=\\"\\"
+      // d=""
       bar={[]}
       z
       // test={{}}
-      data-ignore=\\"\\"
+      data-ignore=""
     />
   );
 };
@@ -206,22 +206,72 @@ class Foo {
 
 exports[`should match snapshots > test.json 1`] = `
 "{
-  \\"0\\": null,
-  \\"a\\": null,
-  \\"b\\": null,
+  "0": null,
+  "a": null,
+  "b": null,
 
-  \\"exampleNestedObject\\": {
-    \\"a\\": null,
-    \\"z\\": null
+  "exampleNestedObject": {
+    "a": null,
+    "z": null
   },
 
-  \\"z\\": 100000
+  "z": 100000
 }
 "
 `;
 
 exports[`should match snapshots > test.md 1`] = `
 "\`\`\`ts
+import { join } from 'node:path';
+
+export const arr = [];
+
+export const obj = {
+  a: '',
+
+  b: () => 'b',
+
+  c: {},
+};
+
+switch ('') {
+  case '': {
+    break;
+  }
+
+  default: {
+    break;
+  }
+}
+
+const ovo = 'ovo';
+const ouo = 'ouo';
+
+const qwq = {
+  name: 'qwq',
+};
+
+const owo = 'owo';
+const { a, b, c } = obj;
+
+'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
+class Foo {
+  b = 'bar';
+
+  constructor() {}
+
+  static a() {}
+
+  c() {}
+}
+\`\`\`
+"
+`;
+
+exports[`should match snapshots > test.mdx 1`] = `
+"<Foo bar data-ignore="" z={[]} />
+
+\`\`\`ts
 import { join } from 'node:path';
 
 export const arr = [];
