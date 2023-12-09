@@ -36,7 +36,6 @@ const owo = 'owo';
 const { a, b, c } = obj;
 
 'abc'.replace(/a(?<foo>b)c/u, '$<foo>');
-
 // NOTE
 class Foo {
   b = 'bar';

@@ -36,20 +36,20 @@ export default defineConfig({
     '@typescript-eslint/dot-notation': ['warn', { allowIndexSignaturePropertyAccess: true, allowKeywords: false }],
     '@typescript-eslint/explicit-member-accessibility': ['warn', { accessibility: 'no-public' }],
 
-    '@typescript-eslint/lines-around-comment': [
-      'warn',
-      {
-        ...linesAroundComment,
-        allowEnumEnd: true,
-        allowEnumStart: true,
-        allowInterfaceEnd: true,
-        allowInterfaceStart: true,
-        allowModuleEnd: true,
-        allowModuleStart: true,
-        allowTypeEnd: true,
-        allowTypeStart: true,
-      },
-    ],
+    // '@typescript-eslint/lines-around-comment': [
+    //   'warn',
+    //   {
+    //     ...linesAroundComment,
+    //     allowEnumEnd: true,
+    //     allowEnumStart: true,
+    //     allowInterfaceEnd: true,
+    //     allowInterfaceStart: true,
+    //     allowModuleEnd: true,
+    //     allowModuleStart: true,
+    //     allowTypeEnd: true,
+    //     allowTypeStart: true,
+    //   },
+    // ],
 
     '@typescript-eslint/lines-between-class-members': 'warn',
     '@typescript-eslint/method-signature-style': ['warn', 'method'],
