@@ -269,7 +269,8 @@ class Foo {
 `;
 
 exports[`should match snapshots > test.mdx 1`] = `
-"<Foo bar data-ignore="" z={[]} />
+"<span>test</span>
+<Foo z data-ignore="" bar={[]}></Foo>
 
 \`\`\`ts
 import { join } from 'node:path';
