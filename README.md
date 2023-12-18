@@ -1,6 +1,7 @@
 # My ESLint config
 
-[![npm version](https://badgen.net/npm/v/@u3u/eslint-config)](https://npm.im/@u3u/eslint-config) [![npm downloads](https://badgen.net/npm/dm/@u3u/eslint-config)](https://npm.im/@u3u/eslint-config)
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
 
 ## Features
 
@@ -167,3 +168,10 @@ npx simple-git-hooks
 ## License
 
 [MIT](./LICENSE) License © 2023 [u3u](https://github.com/u3u)
+
+<!-- Badges -->
+
+[npm-version-src]: https://img.shields.io/npm/v/@u3u/eslint-config
+[npm-version-href]: https://npmjs.com/package/@u3u/eslint-config
+[npm-downloads-src]: https://img.shields.io/npm/dm/@u3u/eslint-config
+[npm-downloads-href]: https://npmjs.com/package/@u3u/eslint-config
