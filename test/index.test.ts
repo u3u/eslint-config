@@ -13,7 +13,7 @@ it('should match snapshots', async () => {
   });
 
   const results = await eslint.lintFiles(['test/__fixtures__']);
-  const options = await prettier.resolveConfig(process.cwd());
+  const options = await prettier.resolveConfig('', { config: require.resolve('@u3u/prettier-config') });
 
   for (const item of results.filter((item) => item.output)) {
     const result = await prettier.format(item.output!, {
