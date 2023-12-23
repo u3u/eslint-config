@@ -10,8 +10,8 @@ export default defineConfig({
 
       rules: {
         'react/jsx-key': 'off',
-        'react/jsx-sort-props': 'off',
-        'react/self-closing-comp': 'off',
+        // 'react/jsx-sort-props': 'off',
+        // 'react/self-closing-comp': 'off',
       },
 
       settings: {
