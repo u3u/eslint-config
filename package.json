@@ -66,9 +66,9 @@
     ]
   },
   "dependencies": {
-    "@types/eslint": "^8.56.0",
-    "@typescript-eslint/eslint-plugin": "^6.16.0",
-    "@typescript-eslint/parser": "^6.16.0",
+    "@types/eslint": "^8.56.1",
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-arrow-return-style": "^1.2.2",
     "eslint-plugin-astro": "^0.31.0",
@@ -76,7 +76,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-json-es": "^1.5.7",
     "eslint-plugin-markdown": "^3.0.1",
-    "eslint-plugin-mdx": "^3.1.1",
+    "eslint-plugin-mdx": "^3.1.2",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-perfectionist": "^2.5.0",
     "eslint-plugin-prefer-arrow-functions": "^3.2.4",
@@ -99,7 +99,7 @@
     "@types/node": "^20.10.6",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.1.4",
-    "astro": "^4.0.8",
+    "astro": "^4.0.9",
     "dedent": "^1.5.1",
     "eslint": "^8.56.0",
     "execa": "^8.0.1",
@@ -110,13 +110,13 @@
     "simple-git-hooks": "^2.9.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
-    "vitest": "^1.1.0",
-    "vue": "^3.4.3"
+    "vitest": "^1.1.1",
+    "vue": "^3.4.4"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@8.13.1",
+  "packageManager": "pnpm@8.14.0",
   "publishConfig": {
     "access": "public"
   },
