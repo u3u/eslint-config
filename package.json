@@ -66,7 +66,7 @@
     ]
   },
   "dependencies": {
-    "@types/eslint": "^8.56.2",
+    "@types/eslint": "^8.56.3",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint-config-prettier": "^9.1.0",
@@ -89,17 +89,17 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^3.1.0",
     "eslint-plugin-unicorn": "^50.0.1",
-    "eslint-plugin-vue": "^9.21.1",
+    "eslint-plugin-vue": "^9.22.0",
     "local-pkg": "^0.4.3",
     "vue-eslint-parser": "^9.4.2"
   },
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.5.1",
     "@tsconfig/node20": "^20.1.2",
-    "@types/node": "^20.11.19",
+    "@types/node": "^20.11.20",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.0",
-    "astro": "^4.4.3",
+    "astro": "^4.4.4",
     "dedent": "^1.5.1",
     "eslint": "^8.56.0",
     "execa": "^8.0.1",
