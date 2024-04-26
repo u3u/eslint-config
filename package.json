@@ -85,7 +85,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-regexp": "^2.5.0",
     "eslint-plugin-sort-class-members": "^1.20.0",
-    "eslint-plugin-sort-destructure-keys": "^1.6.0",
+    "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "eslint-plugin-sort-exports": "^0.9.1",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^3.2.0",
