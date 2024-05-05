@@ -100,7 +100,7 @@
     "@types/node": "^20.12.8",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.7.0",
+    "astro": "^4.7.1",
     "dedent": "^1.5.3",
     "eslint": "^8.57.0",
     "execa": "^8.0.1",
@@ -111,7 +111,7 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.0.2",
     "typescript": "^5.4.5",
-    "vitest": "^1.5.3",
+    "vitest": "^1.6.0",
     "vue": "^3.4.26"
   },
   "peerDependencies": {
