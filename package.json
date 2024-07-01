@@ -102,7 +102,7 @@
     "@u3u/prettier-config": "^4.5.1",
     "astro": "^4.11.3",
     "dedent": "^1.5.3",
-    "eslint": "^8.57.0",
+    "eslint": "^9.6.0",
     "execa": "^8.0.1",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.2.7",
