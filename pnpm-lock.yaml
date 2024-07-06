@@ -92,8 +92,8 @@ devDependencies:
     specifier: ^20.1.4
     version: 20.1.4
   '@types/node':
-    specifier: ^20.14.9
-    version: 20.14.9
+    specifier: ^20.14.10
+    version: 20.14.10
   '@u3u/eslint-config':
     specifier: 'link:'
     version: 'link:'
@@ -102,7 +102,7 @@ devDependencies:
     version: 4.5.1(prettier@3.3.2)
   astro:
     specifier: ^4.11.5
-    version: 4.11.5(@types/node@20.14.9)(typescript@5.5.3)
+    version: 4.11.5(@types/node@20.14.10)(typescript@5.5.3)
   dedent:
     specifier: ^1.5.3
     version: 1.5.3
@@ -135,7 +135,7 @@ devDependencies:
     version: 5.5.3
   vitest:
     specifier: ^1.6.0
-    version: 1.6.0(@types/node@20.14.9)
+    version: 1.6.0(@types/node@20.14.10)
   vue:
     specifier: ^3.4.31
     version: 3.4.31(typescript@5.5.3)
@@ -1699,7 +1699,7 @@ packages:
   /@types/concat-stream@2.0.3:
     resolution: {integrity: sha512-3qe4oQAPNwVNwK4C9c8u+VJqv9kez+2MR4qJpoPFfXtgxxif1QbFusvXzK0/Wra2VX07smostI2VMmJNSpZjuQ==}
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
     dev: false
 
   /@types/cookie@0.6.0:
@@ -1772,8 +1772,8 @@ packages:
       '@types/unist': 3.0.0
     dev: true
 
-  /@types/node@20.14.9:
-    resolution: {integrity: sha512-06OCtnTXtWOZBJlRApleWndH4JsRVs1pDCc8dLSQp+7PpUpX3ePdHyeNSFTeSe7FtKyQkrlPvHwJOW3SLd8Oyg==}
+  /@types/node@20.14.10:
+    resolution: {integrity: sha512-MdiXf+nDuMvY0gJKxyfZ7/6UFsETO7mGKF54MVD/ekJS6HdFtpZFBgrh6Pseu64XTb2MLyFPlbW6hj8HYRQNOQ==}
     dependencies:
       undici-types: 5.26.5
 
@@ -2554,7 +2554,7 @@ packages:
       - typescript
     dev: false
 
-  /astro@4.11.5(@types/node@20.14.9)(typescript@5.5.3):
+  /astro@4.11.5(@types/node@20.14.10)(typescript@5.5.3):
     resolution: {integrity: sha512-TCRhuaLwrxwMhS8S1GG+ZTdrAXigX9C8E/YUTs/r2t+owHxDgwl86IV9xH1IHrCPoqhK6civyAQNOT+GKmkb0A==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
@@ -2615,7 +2615,7 @@ packages:
       tsconfck: 3.1.1(typescript@5.5.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.3.3(@types/node@20.14.9)
+      vite: 5.3.3(@types/node@20.14.10)
       vitefu: 0.2.5(vite@5.3.3)
       which-pm: 2.2.0
       yargs-parser: 21.1.1
@@ -2942,7 +2942,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       slice-ansi: 5.0.0
-      string-width: 7.1.0
+      string-width: 7.2.0
     dev: true
 
   /cliui@8.0.1:
@@ -7528,15 +7528,6 @@ packages:
       strip-ansi: 7.1.0
     dev: false
 
-  /string-width@7.1.0:
-    resolution: {integrity: sha512-SEIJCWiX7Kg4c129n48aDRwLbFb2LJmXXFrWBG4NGaRtMQ3myKPKbwrD1BKqQn74oCoNMBVrfDEr5M9YxCsrkw==}
-    engines: {node: '>=18'}
-    dependencies:
-      emoji-regex: 10.3.0
-      get-east-asian-width: 1.2.0
-      strip-ansi: 7.1.0
-    dev: true
-
   /string-width@7.2.0:
     resolution: {integrity: sha512-tsaTIkKW9b4N+AEj+SVA+WhJzV7/zMhcSu78mLKWSk7cXMOSHsBKFWUs0fWwq8QyK3MgJBQRX6Gbi4kYbdvGkQ==}
     engines: {node: '>=18'}
@@ -8000,7 +7991,7 @@ packages:
       '@types/concat-stream': 2.0.3
       '@types/debug': 4.1.8
       '@types/is-empty': 1.2.3
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       '@types/unist': 3.0.0
       '@ungap/structured-clone': 1.2.0
       concat-stream: 2.0.0
@@ -8212,7 +8203,7 @@ packages:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  /vite-node@1.6.0(@types/node@20.14.9):
+  /vite-node@1.6.0(@types/node@20.14.10):
     resolution: {integrity: sha512-de6HJgzC+TFzOu0NTC4RAIsyf/DY/ibWDYQUcuEA84EMHhcefTUGkjFHKKEJhQN4A+6I0u++kr3l36ZF2d7XRw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8221,7 +8212,7 @@ packages:
       debug: 4.3.5
       pathe: 1.1.1
       picocolors: 1.0.1
-      vite: 5.3.3(@types/node@20.14.9)
+      vite: 5.3.3(@types/node@20.14.10)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -8233,7 +8224,7 @@ packages:
       - terser
     dev: true
 
-  /vite@5.2.10(@types/node@20.14.9):
+  /vite@5.2.10(@types/node@20.14.10):
     resolution: {integrity: sha512-PAzgUZbP7msvQvqdSD+ErD5qGnSFiGOoWmV5yAKUEI0kdhjbH6nMWVyZQC/hSc4aXwc0oJ9aEdIiF9Oje0JFCw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8261,7 +8252,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       esbuild: 0.20.2
       postcss: 8.4.39
       rollup: 4.16.4
@@ -8269,7 +8260,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.3.3(@types/node@20.14.9):
+  /vite@5.3.3(@types/node@20.14.10):
     resolution: {integrity: sha512-NPQdeCU0Dv2z5fu+ULotpuq5yfCS1BzKUIPhNbP3YBfAMGJXbt2nS+sbTFu+qchaqWTD+H3JK++nRwr6XIcp6A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8297,7 +8288,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       esbuild: 0.21.5
       postcss: 8.4.39
       rollup: 4.16.4
@@ -8313,10 +8304,10 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.3.3(@types/node@20.14.9)
+      vite: 5.3.3(@types/node@20.14.10)
     dev: true
 
-  /vitest@1.6.0(@types/node@20.14.9):
+  /vitest@1.6.0(@types/node@20.14.10):
     resolution: {integrity: sha512-H5r/dN06swuFnzNFhq/dnz37bPXnq8xB2xB5JOVk8K09rUtoeNN+LHWkoQ0A/i3hvbUKKcCei9KpbxqHMLhLLA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -8341,7 +8332,7 @@ packages:
       jsdom:
         optional: true
     dependencies:
-      '@types/node': 20.14.9
+      '@types/node': 20.14.10
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
       '@vitest/snapshot': 1.6.0
@@ -8359,8 +8350,8 @@ packages:
       strip-literal: 2.0.0
       tinybench: 2.5.1
       tinypool: 0.8.3
-      vite: 5.2.10(@types/node@20.14.9)
-      vite-node: 1.6.0(@types/node@20.14.9)
+      vite: 5.2.10(@types/node@20.14.10)
+      vite-node: 1.6.0(@types/node@20.14.10)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
@@ -8547,7 +8538,7 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       ansi-styles: 6.2.1
-      string-width: 7.1.0
+      string-width: 7.2.0
       strip-ansi: 7.1.0
     dev: true
 
