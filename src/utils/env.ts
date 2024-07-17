@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { isPackageExists } from 'local-pkg';
+
+const { isPackageExists } = require('local-pkg');
 
 export const env = {
   get hasTsconfig() {

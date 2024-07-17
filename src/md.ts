@@ -1,7 +1,7 @@
 import { defineConfig, getTsFiles } from './utils';
 
 export default defineConfig({
-  extends: ['plugin:markdown/recommended'],
+  extends: ['plugin:markdown/recommended-legacy'],
 
   overrides: [
     {
