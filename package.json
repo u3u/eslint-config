@@ -81,7 +81,7 @@
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-perfectionist": "^2.11.0",
     "eslint-plugin-prefer-arrow-functions": "^3.3.2",
-    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-regexp": "^2.6.0",
     "eslint-plugin-sort-class-members": "^1.20.0",
@@ -100,7 +100,7 @@
     "@types/node": "^20.14.11",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.11.5",
+    "astro": "^4.12.2",
     "dedent": "^1.5.3",
     "eslint": "^8.57.0",
     "execa": "^9.3.0",
@@ -109,15 +109,15 @@
     "prettier": "^3.3.3",
     "react": "^18.3.1",
     "simple-git-hooks": "^2.11.1",
-    "tsup": "^8.1.0",
+    "tsup": "^8.2.1",
     "typescript": "^5.5.3",
     "vitest": "^2.0.3",
-    "vue": "^3.4.31"
+    "vue": "^3.4.33"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "publishConfig": {
     "access": "public"
   },
