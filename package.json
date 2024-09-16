@@ -89,7 +89,7 @@
     "eslint-plugin-sort-exports": "^0.9.1",
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^3.2.0",
-    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-unicorn": "^55.0.0",
     "eslint-plugin-vue": "^9.28.0",
     "local-pkg": "^0.5.0",
     "vue-eslint-parser": "^9.4.3"
