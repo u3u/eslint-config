@@ -83,7 +83,7 @@
     "eslint-plugin-prefer-arrow-functions": "^3.4.1",
     "eslint-plugin-react": "^7.37.2",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-regexp": "^2.6.0",
+    "eslint-plugin-regexp": "^2.7.0",
     "eslint-plugin-sort-class-members": "^1.21.0",
     "eslint-plugin-sort-destructure-keys": "^2.0.0",
     "eslint-plugin-sort-exports": "^0.9.1",
@@ -100,7 +100,7 @@
     "@types/node": "^20.17.6",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.16.12",
+    "astro": "^4.16.13",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
     "execa": "^9.5.1",
@@ -112,12 +112,12 @@
     "tsup": "^8.3.5",
     "typescript": "^5.6.3",
     "vitest": "^2.1.5",
-    "vue": "^3.5.12"
+    "vue": "^3.5.13"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@9.13.1",
+  "packageManager": "pnpm@9.13.2",
   "publishConfig": {
     "access": "public"
   },
