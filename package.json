@@ -97,10 +97,10 @@
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.6.1",
     "@tsconfig/node20": "^20.1.4",
-    "@types/node": "^20.17.6",
+    "@types/node": "^20.17.7",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.16.13",
+    "astro": "^4.16.14",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
     "execa": "^9.5.1",
@@ -110,14 +110,14 @@
     "react": "^18.3.1",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.3.5",
-    "typescript": "^5.6.3",
+    "typescript": "^5.7.2",
     "vitest": "^2.1.5",
     "vue": "^3.5.13"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@9.13.2",
+  "packageManager": "pnpm@9.14.2",
   "publishConfig": {
     "access": "public"
   },
