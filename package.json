@@ -90,7 +90,7 @@
     "eslint-plugin-sort-keys": "^2.3.5",
     "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "eslint-plugin-unicorn": "^54.0.0",
-    "eslint-plugin-vue": "^9.31.0",
+    "eslint-plugin-vue": "^9.32.0",
     "local-pkg": "^0.5.1",
     "vue-eslint-parser": "^9.4.3"
   },
@@ -111,13 +111,13 @@
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2",
-    "vitest": "^2.1.6",
+    "vitest": "^2.1.8",
     "vue": "^3.5.13"
   },
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@9.14.3",
+  "packageManager": "pnpm@9.14.4",
   "publishConfig": {
     "access": "public"
   },
