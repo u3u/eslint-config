@@ -100,13 +100,13 @@
     "@types/node": "^20.17.9",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.16.16",
+    "astro": "^4.16.17",
     "dedent": "^1.5.3",
     "eslint": "^8.57.1",
-    "execa": "^9.5.1",
+    "execa": "^9.5.2",
     "fix-tsup-cjs": "^1.2.0",
     "lint-staged": "^15.2.10",
-    "prettier": "^3.4.1",
+    "prettier": "^3.4.2",
     "react": "^18.3.1",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.3.5",
@@ -117,7 +117,7 @@
   "peerDependencies": {
     "eslint": ">=8.0.0"
   },
-  "packageManager": "pnpm@9.14.4",
+  "packageManager": "pnpm@9.15.0",
   "publishConfig": {
     "access": "public"
   },
