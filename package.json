@@ -100,7 +100,7 @@
     "@types/node": "^20.19.25",
     "@u3u/eslint-config": "link:",
     "@u3u/prettier-config": "^4.5.1",
-    "astro": "^4.16.18",
+    "astro": "^5.0.0",
     "dedent": "^1.7.0",
     "eslint": "^8.57.1",
     "execa": "^9.6.0",
